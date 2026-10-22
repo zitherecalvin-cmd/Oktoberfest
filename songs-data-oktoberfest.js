@@ -39,6 +39,10 @@
  *   dashes (so it transposes); lyric tab expanded so "bad" sits under F#m;
  *   Solo line 2 keeps the sheet's leading space.
  *
+ * 2026-10-22 (user-requested): Sabot-Sabot gets the chord-only OUTRO
+ * (Em Am F G / Em Am Am G F) added at the end of its .docx
+ * (AUGUST 2026/CHORDS/Sabot_Sabot_Chords_by_Phylum.docx).
+ *
  * Tatsulok is written in B minor, so it's stored as key "B" + minor (the
  * HTML labels its keys as minor and spells by the relative major).
  *
@@ -742,6 +746,11 @@
           "    Ang talagsaong kalipay",
           "         G                   F   G",
           "    Na kanimo ra matagamtaman"
+        ] },
+        { label: "Outro", lines: [
+          "Em Am F G",
+          "",
+          "Em Am Am G F"
         ] }
       ]
     },

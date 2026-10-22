@@ -921,6 +921,14 @@ F Am           Am       G          F
     Na kanimo ra matagamtaman
 ```
 
+**[Outro]**
+
+```
+Em Am F G
+
+Em Am Am G F
+```
+
 ---
 
 ## 8. Hindi Na Nga — This Band
