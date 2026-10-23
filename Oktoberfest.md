@@ -1,7 +1,7 @@
 # Oktoberfest — Chord Guide
 
-> 15 songs · designed to match the transpose-toolbar experience in `chord-guide-dontblink.md` (see `chord_guide_oktoberfest.html`)
-> Source chords: the existing chord guides in this project (`SEPTEMBER/chord-guide-september.md`, `SEPTEMBER/chord-guide-v2.md`, `September-25-Songs/chord-guide-september-25.md`, `September-25-Songs/chord-guide-set-2-sep-25.md`); #8 and #9 from the `.docx` chord sheets in `October/` (`Hindi_Na_Nga_Chords_by_This_Band.docx`, `Narda_Chords_by_Kamikazee.docx`)
+> 16 songs · designed to match the transpose-toolbar experience in `chord-guide-dontblink.md` (see `chord_guide_oktoberfest.html`)
+> Source chords: the existing chord guides in this project (`SEPTEMBER/chord-guide-september.md`, `SEPTEMBER/chord-guide-v2.md`, `September-25-Songs/chord-guide-september-25.md`, `September-25-Songs/chord-guide-set-2-sep-25.md`); #7 and #8 from the `.docx` chord sheets in `October/` (`Narda_Chords_by_Kamikazee.docx`, `Hindi_Na_Nga_Chords_by_This_Band.docx`)
 
 ---
 
@@ -18,7 +18,7 @@
 
 The transpose engine lives in `transpose.js` (also usable from Node) with its test suite in `test_transpose.js` (`node test_transpose.js`). Shared with the other guides in this project.
 
-BPM notes: taken from each song's source sheet / guide (Hindi Na Nga 66 and Narda 120 from their sheets' strumming sections). Tatsulok (102) and Pangako (120) have no BPM on their sheets; those tempos were set for this chart. Tatsulok is written in B minor as on the sheet — its Key toolbar shows minor names (Bm). Bulong (Kitchie Nadal) Verse 2 uses the Verse 1 chord pattern, written in for this chart. Hindi Na Nga's section labels were added for this chart (its sheet has none).
+BPM notes: taken from each song's source sheet / guide (Hindi Na Nga 66 and Narda 120 from their sheets' strumming sections). Tatsulok (102), Pangako (120) and Gi Kumot-Kumot (~120) have no BPM on their sheets; those tempos were set for this chart. Tatsulok is written in B minor as on the sheet — its Key toolbar shows minor names (Bm). Bulong (Kitchie Nadal) Verse 2 uses the Verse 1 chord pattern, written in for this chart. Hindi Na Nga's section labels were added for this chart (its sheet has none).
 
 **Auto-scroll** in `chord_guide_oktoberfest.html` stops at the end of each song (when its last line reaches the bottom of the screen); press Auto-Scroll again to carry on into the next song at that song's BPM.
 
@@ -26,25 +26,1256 @@ BPM notes: taken from each song's source sheet / guide (Hindi Na Nga 66 and Nard
 
 ## Setlist
 
-1. [Bulong](#1-bulong) — Kitchie Nadal · ♩ ~84 BPM · Key of D
-2. [Same Ground](#2-same-ground) — Kitchie Nadal · ♩ ~84 BPM · Key of A
-3. [Bulong](#3-bulong) — December Avenue · ♩ 70 BPM · Key of F
-4. [Huling Sandali](#4-huling-sandali) — December Avenue · ♩ 75 BPM · Key of E
-5. [Tatsulok](#5-tatsulok) — Bamboo · ♩ 102 BPM · Key of B minor
+1. [Gi Kumot-Kumot](#1-gi-kumot-kumot) — The Ambassadors · ♩ ~120 BPM · Key of A
+2. [Nobela](#2-nobela) — Join the Club · ♩ 80 BPM · Key of E
+3. [Ulan](#3-ulan) — Cueshé · Half Empty, Half Full · ♩ ~72 BPM · Key of B
+4. [Pangako](#4-pangako) — Cueshé · ♩ 120 BPM · Key of F
+5. [Sine Sine](#5-sine-sine) — Missing Filemon · ♩ 90 BPM · Key of A
 6. [This Love](#6-this-love) — Maroon 5 · ♩ 95 BPM · Key of G
-7. [Sabot-Sabot](#7-sabot-sabot) — Phylum · ♩ 99 BPM · Key of C
+7. [Narda](#7-narda) — Kamikazee · ♩ 120 BPM · Key of D
 8. [Hindi Na Nga](#8-hindi-na-nga) — This Band · ♩ 66 BPM · Key of G
-9. [Narda](#9-narda) — Kamikazee · ♩ 120 BPM · Key of D
-10. [Saksi Ang Langit](#10-saksi-ang-langit) — December Avenue · ♩ 85 BPM · Key of G
-11. [Pangako](#11-pangako) — Cueshé · ♩ 120 BPM · Key of F
-12. [Ang Huling El Bimbo](#12-ang-huling-el-bimbo) — Eraserheads · ♩ 90 BPM · Key of G
-13. [Ulan](#13-ulan) — Cueshé · Half Empty, Half Full · ♩ ~72 BPM · Key of B
-14. [Sine Sine](#14-sine-sine) — Missing Filemon · ♩ 90 BPM · Key of A
-15. [Nobela](#15-nobela) — Join the Club · ♩ 80 BPM · Key of E
+9. [Sabot-Sabot](#9-sabot-sabot) — Phylum · ♩ 99 BPM · Key of C
+10. [Bulong](#10-bulong) — December Avenue · ♩ 70 BPM · Key of F
+11. [Bulong](#11-bulong) — Kitchie Nadal · ♩ ~84 BPM · Key of D
+12. [Same Ground](#12-same-ground) — Kitchie Nadal · ♩ ~84 BPM · Key of A
+13. [Huling Sandali](#13-huling-sandali) — December Avenue · ♩ 75 BPM · Key of E
+14. [Saksi Ang Langit](#14-saksi-ang-langit) — December Avenue · ♩ 85 BPM · Key of G
+15. [Tatsulok](#15-tatsulok) — Bamboo · ♩ 102 BPM · Key of B minor
+16. [Ang Huling El Bimbo](#16-ang-huling-el-bimbo) — Eraserheads · ♩ 90 BPM · Key of G
 
 ---
 
-## 1. Bulong — Kitchie Nadal
+## 1. Gi Kumot-Kumot — The Ambassadors
+♩ **~120 BPM** · Key of **A**
+
+**[Verse 1]**
+
+```
+     A                            E
+     gpanumpa ko na, nga kitang duha
+          D                   E
+     magtiunay sa ato nga gugma.
+                A              E
+     abi mog kita, magkadayon na
+             D             E
+     kay sa gugma nanumpa ta.
+```
+
+**[Pre-Chorus]**
+
+```
+  F#m                          Bm
+  kalit gibyaan ikaaw nga naghilak
+            G        D                 E
+  mao nang dagway mo sa samin daw mabuak.
+```
+
+**[Chorus]**
+
+```
+                     A
+     kay gikumot-kumot(gikumot-kumot)
+                     E
+     sa dakong kamot(sa dakong kamot)
+                   D                        E
+     ang dughan mong pagkadako, dako sa gugma
+                       A
+     kay gikumot-kumot(GIKUMOT-KUMOT)
+                    E
+     sa dakong kamot(sa dakong kamot)
+                 D                        E
+     ang dughan mong pagkadako, dako sa gugma.
+```
+
+**[Verse 1]**
+
+*(Repeat verse 1)*
+
+```
+     A                            E
+     gpanumpa ko na, nga kitang duha
+          D                   E
+     magtiunay sa ato nga gugma.
+                A              E
+     abi mog kita, magkadayon na
+             D             E
+     kay sa gugma nanumpa ta.
+```
+
+**[Pre-Chorus]**
+
+```
+  F#m                          Bm
+  kalit gibyaan ikaaw nga naghilak
+            G        D                 E
+  mao nang dagway mo sa samin daw mabuak.
+```
+
+**[Chorus]**
+
+```
+                     A
+     kay gikumot-kumot(gikumot-kumot)
+                     E
+     sa dakong kamot(sa dakong kamot)
+                   D                        E
+     ang dughan mong pagkadako, dako sa gugma
+                       A
+     kay gikumot-kumot(GIKUMOT-KUMOT)
+                    E
+     sa dakong kamot(sa dakong kamot)
+                 D                        E
+     ang dughan mong pagkadako, dako sa gugma.
+```
+
+**[Tag]**
+
+```
+                    A
+      Kay  gikumot-kumoT (gikumot-kumot)
+                 E
+      gikumot-kumot, gikumot-kumot
+                 D
+      gikumot-kumot, gikumot-kumot
+                    E
+      gikumot-kumoooooot..
+```
+
+**[Pre-Chorus]**
+
+*(Repeat Ref. and Cho.)*
+
+```
+  F#m                          Bm
+  kalit gibyaan ikaaw nga naghilak
+            G        D                 E
+  mao nang dagway mo sa samin daw mabuak.
+```
+
+**[Chorus]**
+
+```
+                     A
+     kay gikumot-kumot(gikumot-kumot)
+                     E
+     sa dakong kamot(sa dakong kamot)
+                   D                        E
+     ang dughan mong pagkadako, dako sa gugma
+                       A
+     kay gikumot-kumot(GIKUMOT-KUMOT)
+                    E
+     sa dakong kamot(sa dakong kamot)
+                 D                        E
+     ang dughan mong pagkadako, dako sa gugma.
+```
+
+---
+
+## 2. Nobela — Join the Club
+♩ **80 BPM** · Key of **E**
+
+**[Intro]**
+
+```
+D# Gm        D# Gm G#
+```
+
+**[Verse]**
+
+```
+G#          D#
+ngumiti kahit na napipilitan
+
+G#                D#
+kahit pa sinasadya
+G#             D#
+mo akong masaktan paminsan-minsan
+G#                 A# (break)
+bawat sandali na lang
+G#              D#
+tulad mo ba akong nahihirapan
+G#             D#
+lalo't naiisip ka
+G#             D#
+di ko na kaya pang makalimutan
+C#                 A#
+bawat sandali na lang
+```
+
+**[Chorus]**
+
+```
+    G#           A#
+at aalis magbabalik
+      D#         Cm
+at uuliting sabihin
+       G#         A#
+na mahalin kat sambitin
+         Gm      Cm
+kahit muli masaktan
+         G#
+sa pag-alis
+ako'y magbabalik
+       G#m A#
+sana naman
+```
+
+**[Verse]**
+
+```
+G#              D#
+sa isang marikit na alaala
+G#              D#
+pangitahing kay ganda
+G#              D#
+sana ngay pagbigyan
+G#
+na ng tadhana
+                 A#
+bawat sandali na lang
+G#              D#
+sumabay sa biglang pagkabahala
+G#              D#
+lumabis ang pagtataka
+G#              D#
+tunay na pagsintang di alintana
+C#                 A#
+bawat sandali na lang
+```
+
+**[Chorus]**
+
+```
+    G#           A#
+at aalis magbabalik
+      D#         Cm
+at uuliting sabihin
+       G#         A#
+na mahalin kat sambitin
+         Gm      Cm
+kahit muli masaktan
+         G#
+sa pag-alis
+ako'y magbabalik
+       G#m
+sana naman
+```
+
+**[Solo 1]**
+
+```
+C#M7 A#m9 F#M7 G# x2 (break)
+```
+
+**[Solo 2]**
+
+```
+F# F#m C#M7 C#7
+F# F#m G#
+```
+
+**[Bridge]**
+
+```
+    F#          C#
+ngumiti kahit na napipilitan
+F#              C#
+kahit pa sinasadya
+F#             C#
+mo akong masaktan paminsan-minsan
+B                  G#
+bawat sandali na lang
+```
+
+**[Chorus]**
+
+```
+     F#           G#
+at aalis magbabalik
+     C#          A#m
+at uuliting sabihin
+     F#           G#
+na mahalin kat sambitin
+      Fm       A#m
+kahit muli masaktan
+     F#
+sa pag-alis
+ako'y magbabalik
+      F#m F# G#
+sana naman
+```
+
+---
+
+## 3. Ulan — Cueshé
+*Half Empty, Half Full*
+♩ **~72 BPM** · Key of **B**
+
+**[Intro]**
+
+```
+B D# x2
+B D# G#m E
+```
+
+**[Verse 1]**
+
+```
+B                F#
+Lagi na lang umuulan
+B                   F#
+Parang walang katapusan
+          C#        E
+Tulad ng paghihirap ko ngayon
+      B          D#
+Parang walang humpay
+        G#m
+Sa kabila ng lahat
+          G
+Ng aking pagsisikap
+      B
+Na limutin ka
+   F#             B D# G#m E
+Ay di pa rin magawa
+```
+
+**[Verse 2]**
+
+```
+B                  F#
+Hindi naman ako tanga
+B                  F#
+Alam ko na wala ka na
+       C#            E
+Pero mahirap lang na tanggapin
+   B         D#
+Di na kita kapiling
+       G#m
+Iniwan mo akong
+     G
+Nag iisa
+      B
+Sa gitna ng dilim
+     F#                 B     F#   E
+At basang basa pa sa ulan
+```
+
+**[Chorus]**
+
+```
+B                D#
+Pero wag mag alala
+       G#m          C#7
+Di na kita gagambalain
+           C#m
+Alam ko namang ngayong
+      E                 B  F#  E
+May kapiling ka ng iba
+B                       D#
+Tanging hiling ko sa 'yo
+     G#m        C#7
+Na tuwing umuulan
+            C#m
+Maalala mo sanang may
+   E             B D# G#m C# C#m F# B (Ad Lib)
+Nagmamahal sa 'yo, oh, oh, oh.....
+```
+
+**[Verse 3]**
+
+```
+B                 F#
+Lagi na lang umuulan
+B                  F#
+Parang walang katapusan
+           C#           E
+Tulad ng paghihirap ko ngayon
+      B         D#
+Parang walang humpay
+       G#m
+Iniwan mo akong
+    G
+Nag iisa
+      B
+Sa gitna ng dilim
+     F#                   B  F#    E
+At basang basa pa sa ulan
+```
+
+**[Chorus]**
+
+```
+B                D#
+Pero wag mag alala
+       G#m         C#
+Di na kita gagambalain
+           C#m
+Alam ko namang ngayong
+      E               B  F#   E
+May kapiling ka ng iba
+B                     D#
+Tanging hiling ko sa 'yo
+     G#m        C#
+Na tuwing umuulan
+            C#m
+Maalala mo sanang may
+   E            B   F#   E
+Nagmamahal sa 'yo ako
+```
+
+**[Outro]**
+
+```
+B     F#
+La la la la la
+G#m   F#
+La la la la la
+A     E     B
+La la la la la....
+```
+
+---
+
+## 4. Pangako — Cueshé
+♩ **120 BPM** · Key of **F**
+
+**[Intro]**
+
+```
+F (x5)
+```
+
+**[Verse 1]**
+
+```
+F
+  Kislap ng yong mga mata
+Ako'y iyong nadadala
+                          Bb
+Parang anghel ang yong ganda
+                F
+Di maiwasan hahanap-hanapin ka
+ F
+O kay tamis ng yong mga ngiti
+Ako'y iyong naaakit
+                      Bb
+Tulad ng rosas nakakaaliw
+                            C
+Di mapigilang mabighani sa iyo
+```
+
+**[Chorus 1]**
+
+```
+   F
+At hindi ko hahayaan na
+ Am
+ika'y mawawala
+     Bb
+Pipilitin ko ang puso
+        F
+mong mahulog sa akin
+```
+
+**[Verse 2]**
+
+```
+F
+    Pagsapit ng gabi
+Sa isip ay ikaw pa rin
+                          Bb
+Mga larawan mo sa aking tabi
+                C
+Na laging nakamasid
+```
+
+**[Chorus 1]**
+
+```
+   F
+At hindi ko hahayaan na
+ Am
+ika'y mawawala
+     Bb
+Pipilitin ko ang puso
+        F
+mong mahulog sa akin
+```
+
+**[Chorus 2]**
+
+```
+   F
+At hinding-hindi ka
+                 Am
+magaalinlangan pangako ito
+     Bb                    F
+Gagawin ang lahat para sa iyo
+```
+
+**[Bridge]**
+
+```
+C            Bb Bb Dm
+  Oh woh woh hoh
+C             Bb C
+  Oh woh wohh wohh
+```
+
+**[Guitar Solo]**
+
+```
+F  Am  Bb  F
+```
+
+**[Chorus 1]**
+
+```
+   F
+At hindi ko hahayaan na
+ Am
+ika'y mawawala
+     Bb
+Pipilitin ko ang puso
+        F
+mong mahulog sa akin
+```
+
+**[Chorus 2]**
+
+```
+   F
+At hinding-hindi ka
+                 Am
+magaalinlangan pangako ito
+     Bb                    F
+Gagawin ang lahat para sa iyo
+```
+
+**[Outro]**
+
+```
+F  F (hold)
+```
+
+---
+
+## 5. Sine Sine — Missing Filemon
+♩ **90 BPM** · Key of **A**
+
+**[Intro]**
+
+```
+D B E       E7
+```
+
+**[Verse 1]**
+
+```
+A       C#7            F#m
+Sinesine wala tay laing lingaw
+  A7
+Kandila luyo sa habol
+D                Dm
+Katawang binayran og pisong kinawat
+A              E
+Sa gubaong pitakang lola
+A        C#7
+Anino sa mga artistang papel
+  A7
+Gihinganlan tag si Pedro'g
+D                 Dm
+Sabel Sila'ng bida niadtong estorya
+A                E
+Sa gugma nga way katumanan
+```
+
+**[Chorus]**
+
+```
+A          C#7        F#m
+Sine..sinesine sa bata pa
+A7                 D
+Di na unta matapos pa
+  C#m    F#m    Bm         E
+Bisan pa man sa pagdagan sa panahon
+A          C#7        F#m
+Lantawon mga eksena nga molabay
+A7                 D
+Tanang tawo makasakay
+
+C#m   F#m    Bm         E
+Saksihan ta ang pagdagan sa panahon
+
+D B7 E
+panahon..
+```
+
+**[Verse 2]**
+
+```
+A       C#7            F#m
+Sigesigeha lang imong paglakaw
+  A7
+Ay'g kahadlok may kahayag
+D                Dm
+Modan-ag sa dalang mangitngit
+  A                      E
+Lakip na ang langit daw lapad nga adlaw
+A       C#7            F#m
+Ang kinabuhi sugilanong hiwi
+  A7
+Kalipay kasakit ug kalami
+D                Dm
+Silang bida niining salida
+A                      E
+Sa gugma nga way katumanan
+```
+
+**[Chorus]**
+
+```
+A          C#7         F#m
+Sine..sinesine sa bata pa
+A7                   D
+Di na unta matapos pa
+  C#m    F#m      Bm       E
+Bisan pa man sa pagdagan sa panahon
+A          C#7         F#m
+Lantawon mga eksena nga molabay
+A7                   D
+Tanang tawo makasakay
+C#m   F#m      Bm        E
+Saksihan ta ang pagdagan sa panahon
+
+D B7 E
+panahon..
+```
+
+**[Instrumental]**
+
+```
+A      C#7   F#m    A7     D     Dm     A      E
+```
+
+**[Chorus]**
+
+```
+A         C#7         F#m
+Sine..sinesine sa bata pa
+A7                 D
+Di na unta matapos pa
+ C#m   | F#m   |  Bm         E
+Bisan pa man sa pagdagan sa panahon
+A         C#7         F#m
+Lantawon mga eksena nga molabay
+A7                 D
+Tanang tawo makasakay
+C#m   | F#m   |  Bm         E
+Saksihan ta ang pagdagan sa panahon
+```
+
+---
+
+## 6. This Love — Maroon 5
+♩ **95 BPM** · Key of **G**
+
+**[Intro]**
+
+```
+G       Cm   Fm       G7/D
+```
+
+**[Verse 1]**
+
+```
+G                       Cm
+I was so high I did not recognize
+                       Fm
+The fire burning in her eyes
+               G7/D
+The chaos that controlled my mind
+G                            Cm
+whispered goodbye as she got on a plane
+            Fm
+Never to return again
+                 G7/D
+But always in my heart
+```
+
+**[Chorus]**
+
+```
+ Cm Fm        Bb        Eb
+This love has taken its toll on me
+ Cm          Fm      Bb           Eb
+She said Goodbye too many times before
+
+    Cm Fm        Bb          Eb
+And her heart is breaking in front of me
+ Cm       F            Ab              G
+I have no choice cause I won't say goodbye anymore
+```
+
+**[Interlude]**
+
+```
+G Cm     Fm   G7/D
+```
+
+**[Verse 2]**
+
+```
+G                           Cm
+I tried my best to feed her appetite
+                 Fm
+Keep her coming every night
+                    G7/D
+So hard to keep her satisfied
+G                              Cm
+Kept playing love like it was just a game
+              Fm
+Pretending to feel the same
+                     G7/D
+Then turn around and leave again (oh!)
+```
+
+**[Chorus]**
+
+```
+ Cm Fm        Bb         Eb
+This love has taken its toll on me
+ Cm          Fm      Bb           Eb
+She said Goodbye too many times before
+    Cm Fm        Bb          Eb
+And her heart is breaking in front of me
+ Cm       F             Ab             G
+I have no choice cause I won't say goodbye anymore
+```
+
+**[Interlude]**
+
+```
+G   Cm   Fm   G7/D
+```
+
+**[Bridge]**
+
+```
+Fm
+I'll fix these broken things
+Ebmaj7
+Repair your broken wings
+G7                          Cm
+And make sure everything's alright (it's alright)
+Fm
+My pressure on her hips
+Ebmaj7
+Sinking my fingertips
+
+G
+Into every inch of you
+G7
+Cause I know that's what you want me to do
+```
+
+**[Chorus]**
+
+```
+ Cm Fm         Bb        Eb
+This love has taken its toll on me
+ Cm          Fm      Bb           Eb
+She said Goodbye too many times before
+    Cm Fm         Bb         Eb
+And her heart is breaking in front of me
+ Cm       F             Ab             G
+I have no choice cause I won't say goodbye anymore
+```
+
+**[Chorus]**
+
+```
+ Cm Fm         Bb        Eb
+This love has taken its toll on me
+ Cm          Fm      Bb           Eb
+She said Goodbye too many times before
+    Cm Fm         Bb         Eb
+And my heart is breaking in front of me
+Cm           F       Ab            G
+She said Goodbye too many times before
+```
+
+**[Chorus]**
+
+```
+ Cm Fm         Bb        Eb
+This love has taken its toll on me
+ Cm          Fm      Bb           Eb
+She said Goodbye too many times before
+    Cm Fm         Bb         Eb
+And her heart is breaking in front of me
+ Cm       F             Ab             G
+I have no choice cause I won't say goodbye anymore
+```
+
+---
+
+## 7. Narda — Kamikazee
+♩ **120 BPM** · Key of **D**
+
+**[Intro]**
+
+```
+D       Bm     G      A
+D       Bm     G      A
+```
+
+**[Verse 1]**
+
+```
+D                       Bm
+Tila ibon kung lumipad, Sumabay sa hangin ako'y napatingin
+G                       A
+Sa dalagang nababalot ng hiwaga.
+D                  Bm
+Mapapansin kaya sa dami ng yong ginagawa
+G                        A
+Kung kaagaw ko ang lahat may pag asa bang makilala ka
+```
+
+**[Chorus]**
+
+```
+D                    Bm
+Awit na nananawagan, baka sakaling napakikinggan,
+G                       A
+Pag ibig na palaisipan sa kanta na lang idaraan
+D                    Bm
+Nag aabang sa langit, sa mga ulap sumisilip
+G                     A
+Sa likod ng mga tala, kahit sulyap lang darna
+```
+
+**[Verse 2]**
+
+```
+D                       Bm
+Ang swerte nga naman ni ding, lagi ka nyang kapiling
+G                       A
+Kung ako sa kanya niligawan na kita
+D                  Bm
+Mapapansin kaya sa dami ng yong ginagawa
+G                        A
+Kung kaagaw ko ang lahat may pag asa bang makilala ka
+```
+
+**[Chorus]**
+
+```
+D                    Bm
+Awit na nananawagan, baka sakaling napakikinggan,
+G                       A
+Pag ibig na palaisipan sa kanta na lang idaraan
+D                    Bm
+Nag aabang sa langit, sa mga ulap sumisilip
+G                     A
+Sa likod ng mga tala, kahit sulyap lang darna
+```
+
+**[Verse 3]**
+
+```
+D                       Bm
+Tumalon kaya ako sa bangin, para lang iyong sagipin
+G                       A
+Ito ang tanging paraan para mayakap ka
+D                  Bm
+Darating kaya......sa dami ng ginagawa
+G                        A
+Kung kaagaw ko sila paano na kaya?
+```
+
+**[Chorus]**
+
+```
+D                    Bm
+Awit na nananawagan, baka sakaling napakikinggan,
+G                       A
+Pag ibig na palaisipan sa kanta na lang idaraan
+D                    Bm
+Nag aabang sa langit, sa mga ulap sumisilip
+G                     A
+Sa likod ng mga tala, kahit sulyap lang darna
+
+D                    Bm
+Nag aabang sa langit, sa mga ulap sumisilip
+G                     A
+Sa likod ng mga tala, kahit sulyap lang darna
+```
+
+---
+
+## 8. Hindi Na Nga — This Band
+♩ **66 BPM** · Key of **G**
+
+**[Intro]**
+
+```
+G   Dsus4   Em7   Cadd9   x2
+```
+
+**[Verse 1]**
+
+```
+       G              Dsus4
+Ang lahat ay nagbabago
+  Em7                 Cadd9
+Ganon din ang puso ko
+    G                   Dsus4
+Di alam kung paano aamin
+      Em7                   Cadd9 (once)
+Kung dapat bang sabihin to
+```
+
+**[Pre-Chorus]**
+
+```
+            Em7
+Ngunit kailangan nang tapangan
+      Dsus4
+At sabihin ang nararapat
+        Cadd9
+Na hindi na nga
+          Dsus4 (once)
+Hindi na nga
+```
+
+**[Chorus]**
+
+```
+  G               Dsus4 (once, then mute)
+Alam kong mali na
+                       Em7
+Pero di ko kayang bumitaw
+Ika'y masasaktan
+          Cadd9
+Dahil pangako ko'y walang iwanan
+
+  G               Dsus4
+Alam kong huli na
+                           Em7     Cadd9
+Alam kong hindi na nga mahal
+```
+
+**[Verse 2]**
+
+```
+           G
+Oh ilang beses din sinubukan
+   Dsus4
+Pinilit ang nararamdaman
+      Em7
+Pero kulang
+     Cadd9
+May kulang
+```
+
+**[Pre-Chorus]**
+
+```
+   G
+Natatakot na malaman
+   Dsus4
+Natatakot na iyong huhusgahan
+       Em7
+Na hindi na nga
+           Cadd9
+Hindi na nga
+```
+
+**[Chorus]**
+
+```
+  G               Dsus4 (once, then mute)
+Alam kong mali na
+                       Em7
+Pero di ko kayang bumitaw
+Ika'y masasaktan
+          Cadd9
+Dahil pangako ko'y walang iwanan
+
+  G               Dsus4
+Alam kong huli na
+                           Em7     Cadd9
+Alam kong hindi na nga mahal
+```
+
+**[Solo]**
+
+```
+G   Dsus4   Em7   Cadd9   x2
+```
+
+**[Bridge]**
+
+```
+  G              Dsus4
+Alam kong huli na
+  Em7             Cadd9
+Alam kong mali na
+  G               Dsus4
+Alam kong huli na
+  Em7             Cadd9
+Alam kong mali na
+```
+
+**[Chorus]**
+
+```
+  G               Dsus4 (once, then mute)
+Alam kong mali na
+                       Em7
+Pero di ko kayang bumitaw
+Ika'y masasaktan
+          Cadd9
+Dahil pangako ko'y walang iwanan
+
+  G               Dsus4
+Alam kong huli na
+                           Em7        Cadd9
+Alam kong hindi na nga mahal
+```
+
+**[Outro]**
+
+```
+G   Dsus4                        Em7 Cadd9
+            Hindi na nga mahal
+G   Dsus4                        Em7 Cadd9
+            Hindi ka na mahal
+
+       G               Dsus4
+Ang lahat ay nagbabago
+   Em7               Cadd9 (arpeggiate)
+Ganon din ang puso ko
+```
+
+---
+
+## 9. Sabot-Sabot — Phylum
+♩ **99 BPM** · Key of **C**
+
+**[Intro]**
+
+```
+C F C F C F C F
+```
+
+**[Verse 1]**
+
+```
+C     F         Am            G
+  Diba duwa-duwa ra man ning atoa
+C         F                Am      G
+  Nganung masakitan man ko kung magkuyog mong duha
+C      F             Am       G
+  Diba nagsabot nata kung mu abot na siya
+F               G
+  Taposon dayon ni natong relasyon na
+```
+
+**[Instrumental]**
+
+```
+C F C F C F C F
+```
+
+**[Verse 2]**
+
+```
+C    F         Am      G
+  Og ako karon nakapangutana
+C          F
+  Nganong karon pa man ka
+Am           G
+  Na may uyab natang duha
+C        F        Am       G
+  Maikog na nuhon ko sa pagbiya na niya
+Am(12x)                             Am-Am
+  Kay gipaila-ila nako sa iyang mama
+```
+
+**[Chorus]**
+
+```
+                     F
+    Maong ikaw akong gibiya-an
+       G               C
+    Na hina-ot nga makalimtan
+
+          C(distort) Am
+    Ang talagsaong kalipay
+         G                   F   G
+    Na kanimo ra matagamtaman
+```
+
+**[Instrumental]**
+
+```
+C F C F C F C F
+```
+
+**[Verse 3]**
+
+```
+C    F         Am      G
+  Og ako karon nakapangutana
+C          F
+  Nganong karon pa man ka
+Am           G
+  Na may uyab natang duha
+C        F        Am       G
+  Maikog na nuhon ko sa pagbiya na niya
+Am(12x)                             Am-Am
+  Kay gipaila-ila nako sa iyang mama
+```
+
+**[Chorus]**
+
+```
+                     F
+    Maong ikaw akong gibiya-an
+       G                C
+    Na hina-ot nga makalimtan
+          C(distort) Am
+    Ang talagsaong kalipay
+         G                   F   G
+    Na kanimo ra matagamtaman
+```
+
+**[Outro]**
+
+```
+F  Am   G     F
+ Bisag asa ko taman
+F Am        Am G F
+ Palayo sa emong kiliran
+F Am        G     F
+ Halos kada lugar akong ma-abtan
+F Am           Am       G          F
+ Ikaw ra giyapon akong mahinumduman
+```
+
+**[Chorus x2]**
+
+```
+                     F
+    Maong ikaw akong gibiya-an
+       G                C
+    Na hina-ot nga makalimtan
+          C(distort) Am
+    Ang talagsaong kalipay
+         G                   F   G
+    Na kanimo ra matagamtaman
+```
+
+**[Outro]**
+
+```
+Em Am F G
+
+Em Am Am G F
+```
+
+---
+
+## 10. Bulong — December Avenue
+♩ **70 BPM** · Key of **F**
+
+**[Intro]**
+
+```
+F Am7 G
+```
+
+**[Verse 1]**
+
+```
+      F            Am7    G
+Hindi masabi ang nararamdaman
+       F                Am7       G
+Di makalapit, sadyang nanginginig nalang
+      F                         Am7 G
+Mga kamay na sabik sa piling mo
+                   F                          Am7      G
+Ang iyong matang walang mintis sa pagtigil ng aking mundo
+```
+
+**[Chorus]**
+
+```
+       F                    Am7 G
+Ako'y alipin ng pag-ibig mo
+         F                          Am7 G
+Handang ibigin ang 'isang tulad mo
+             F                          Am7    G
+Hangga't ang puso mo'y sa akin lang hindi ka na malilinlang
+ F                        Am7          G
+Ikaw ang ilaw sa dilim at ang liwanag ng mga bituin
+```
+
+**[Verse 2]**
+
+```
+        F                 Am7          G
+Hindi mapakali, hanggang tingin nalang
+               F                     Am7      G
+Bumubulong sa iyong tabi, sadyang walang makapantay
+        F                     Am7    G
+Sa kagandahang inuukit mo sa isip ko
+```
+
+**[Chorus]**
+
+```
+       F                    Am7 G
+Ako'y alipin ng pag-ibig mo
+         F                         Am7 G
+Handang ibigin ang 'isang tulad mo
+             F                        Am7      G
+Hangga't ang puso mo'y sa akin lang hindi ka na malilinlang
+ F                        Am7        G
+Ikaw ang ilaw sa dilim at ang liwanag ng mga bituin
+```
+
+**[Bridge]**
+
+```
+F Am7 G
+```
+
+**[Chorus]**
+
+```
+       F                    Am7 G
+Ako'y alipin ng pag-ibig mo
+         F                         Am7 G
+Handang ibigin ang 'isang tulad mo
+             F                        Am7      G
+Hangga't ang puso mo'y sa akin lang hindi ka na malilinlang
+ F                        Am7        G
+Ikaw ang ilaw sa dilim at ang liwanag ng mga bituin
+```
+
+**[Outro]**
+
+```
+F Am7 G
+```
+
+---
+
+## 11. Bulong — Kitchie Nadal
 ♩ **~84 BPM** · Key of **D**
 
 > Segues directly into Same Ground — same tempo, no break
@@ -159,7 +1390,7 @@ A  G
 
 ---
 
-## 2. Same Ground — Kitchie Nadal
+## 12. Same Ground — Kitchie Nadal
 ♩ **~84 BPM** · Key of **A**
 
 > Segues directly from Bulong — same tempo, no break
@@ -288,93 +1519,7 @@ To see right through me?
 
 ---
 
-## 3. Bulong — December Avenue
-♩ **70 BPM** · Key of **F**
-
-**[Intro]**
-
-```
-F Am7 G
-```
-
-**[Verse 1]**
-
-```
-      F            Am7    G
-Hindi masabi ang nararamdaman
-       F                Am7       G
-Di makalapit, sadyang nanginginig nalang
-      F                         Am7 G
-Mga kamay na sabik sa piling mo
-                   F                          Am7      G
-Ang iyong matang walang mintis sa pagtigil ng aking mundo
-```
-
-**[Chorus]**
-
-```
-       F                    Am7 G
-Ako'y alipin ng pag-ibig mo
-         F                          Am7 G
-Handang ibigin ang 'isang tulad mo
-             F                          Am7    G
-Hangga't ang puso mo'y sa akin lang hindi ka na malilinlang
- F                        Am7          G
-Ikaw ang ilaw sa dilim at ang liwanag ng mga bituin
-```
-
-**[Verse 2]**
-
-```
-        F                 Am7          G
-Hindi mapakali, hanggang tingin nalang
-               F                     Am7      G
-Bumubulong sa iyong tabi, sadyang walang makapantay
-        F                     Am7    G
-Sa kagandahang inuukit mo sa isip ko
-```
-
-**[Chorus]**
-
-```
-       F                    Am7 G
-Ako'y alipin ng pag-ibig mo
-         F                         Am7 G
-Handang ibigin ang 'isang tulad mo
-             F                        Am7      G
-Hangga't ang puso mo'y sa akin lang hindi ka na malilinlang
- F                        Am7        G
-Ikaw ang ilaw sa dilim at ang liwanag ng mga bituin
-```
-
-**[Bridge]**
-
-```
-F Am7 G
-```
-
-**[Chorus]**
-
-```
-       F                    Am7 G
-Ako'y alipin ng pag-ibig mo
-         F                         Am7 G
-Handang ibigin ang 'isang tulad mo
-             F                        Am7      G
-Hangga't ang puso mo'y sa akin lang hindi ka na malilinlang
- F                        Am7        G
-Ikaw ang ilaw sa dilim at ang liwanag ng mga bituin
-```
-
-**[Outro]**
-
-```
-F Am7 G
-```
-
----
-
-## 4. Huling Sandali — December Avenue
+## 13. Huling Sandali — December Avenue
 ♩ **75 BPM** · Key of **E**
 
 **[Intro]**
@@ -503,7 +1648,147 @@ Na ika'y magiging akin
 
 ---
 
-## 5. Tatsulok — Bamboo
+## 14. Saksi Ang Langit — December Avenue
+♩ **85 BPM** · Key of **G**
+
+**[Intro]**
+
+```
+Dmaj7 Gmaj7
+Dmaj7 Gmaj7
+```
+
+**[Verse 1]**
+
+```
+            D
+Nangangarap lang
+                  Gmaj7
+Habang ika'y pinagmamasdan
+                D
+Nagbibilang ng iyong hakbang
+                     Gmaj7
+Hanggang ika'y aking mahagkan
+```
+
+**[Pre-Chorus]**
+
+```
+                   Em
+'Di sasayangin ang oras sa pag-ibig mo
+                G
+Mas pipiliin ko
+                                    D
+Ibigay lahat pati itong aking mundo
+```
+
+**[Chorus]**
+
+```
+                     Gmaj7
+Halika't sumayaw sa ilalim ng bituin
+                       D/F#
+Habang ako'y nakatingin sa'yo
+                      Em       G
+Wala ng 'kong ibang mahihiling
+                          D G
+Saksi ang langit sa'tin
+```
+
+**[Verse 2]**
+
+```
+               D
+'Wag kang magtaka
+                       G
+Kung bakit tayo pinag-isa
+                D
+'Wag kanang kabahan
+                G
+Ito'y hindi panaginip lang
+```
+
+**[Pre-Chorus]**
+
+```
+                  Em
+'Di gumagalaw ang oras sa paligid ko
+                   G
+Pati itong mundo'y
+                                    D
+Tumitigil habang ako'y nasa tabi mo
+```
+
+**[Chorus]**
+
+```
+                     Gmaj7
+Halika't sumayaw sa ilalim ng bituin
+                       D/F#
+Habang ako'y nakatingin sa'yo
+                      Em       G
+Wala ng 'kong ibang mahihiling
+Saksi ang langit sa'tin
+```
+
+**[Refrain]**
+
+```
+D              G
+  Oh-oh, oh-oh-oh
+                Em
+Oh-oh, oh-oh-oh
+                G
+Oh-oh, oh-oh-oh
+                D
+Oh-oh, oh-oh-oh
+Saksi ang langit
+Saksi ang langit sa'tin
+G
+  Saksi ang langit
+Saksi ang langit sa'tin
+Em
+   Saksi ang langit
+Saksi ang langit sa'tin
+G
+    Saksi ang langit
+```
+
+**[Pre-Chorus]**
+
+```
+                  Em
+'Di gumagalaw ang oras sa paligid ko
+                   G
+Pati itong mundo'y
+                                    D
+Tumitigil habang ako'y nasa tabi mo
+```
+
+**[Chorus]**
+
+```
+                     Gmaj7
+Halika't sumayaw sa ilalim ng bituin
+                        D/F#
+Habang ako'y nakatingin sa'yo
+                      Em        G
+Wala ng 'kong ibang mahihiling
+                        D
+Saksi ang langit sa'tin (Saksi ang langit)
+                     Gmaj7
+Halika't sumayaw sa ilalim ng bituin
+                      D/F#
+Habang ako'y nakadikit sa'yo
+                     Em       G
+Wala na'kong ibang mahihiling
+                 D
+Saksi ang langit
+```
+
+---
+
+## 15. Tatsulok — Bamboo
 ♩ **102 BPM** · Key of **B** (B minor)
 
 > Key of B minor, as written on the source sheet.
@@ -661,783 +1946,7 @@ Di matatapos itong gulo
 
 ---
 
-## 6. This Love — Maroon 5
-♩ **95 BPM** · Key of **G**
-
-**[Intro]**
-
-```
-G       Cm   Fm       G7/D
-```
-
-**[Verse 1]**
-
-```
-G                       Cm
-I was so high I did not recognize
-                       Fm
-The fire burning in her eyes
-               G7/D
-The chaos that controlled my mind
-G                            Cm
-whispered goodbye as she got on a plane
-            Fm
-Never to return again
-                 G7/D
-But always in my heart
-```
-
-**[Chorus]**
-
-```
- Cm Fm        Bb        Eb
-This love has taken its toll on me
- Cm          Fm      Bb           Eb
-She said Goodbye too many times before
-
-    Cm Fm        Bb          Eb
-And her heart is breaking in front of me
- Cm       F            Ab              G
-I have no choice cause I won't say goodbye anymore
-```
-
-**[Interlude]**
-
-```
-G Cm     Fm   G7/D
-```
-
-**[Verse 2]**
-
-```
-G                           Cm
-I tried my best to feed her appetite
-                 Fm
-Keep her coming every night
-                    G7/D
-So hard to keep her satisfied
-G                              Cm
-Kept playing love like it was just a game
-              Fm
-Pretending to feel the same
-                     G7/D
-Then turn around and leave again (oh!)
-```
-
-**[Chorus]**
-
-```
- Cm Fm        Bb         Eb
-This love has taken its toll on me
- Cm          Fm      Bb           Eb
-She said Goodbye too many times before
-    Cm Fm        Bb          Eb
-And her heart is breaking in front of me
- Cm       F             Ab             G
-I have no choice cause I won't say goodbye anymore
-```
-
-**[Interlude]**
-
-```
-G   Cm   Fm   G7/D
-```
-
-**[Bridge]**
-
-```
-Fm
-I'll fix these broken things
-Ebmaj7
-Repair your broken wings
-G7                          Cm
-And make sure everything's alright (it's alright)
-Fm
-My pressure on her hips
-Ebmaj7
-Sinking my fingertips
-
-G
-Into every inch of you
-G7
-Cause I know that's what you want me to do
-```
-
-**[Chorus]**
-
-```
- Cm Fm         Bb        Eb
-This love has taken its toll on me
- Cm          Fm      Bb           Eb
-She said Goodbye too many times before
-    Cm Fm         Bb         Eb
-And her heart is breaking in front of me
- Cm       F             Ab             G
-I have no choice cause I won't say goodbye anymore
-```
-
-**[Chorus]**
-
-```
- Cm Fm         Bb        Eb
-This love has taken its toll on me
- Cm          Fm      Bb           Eb
-She said Goodbye too many times before
-    Cm Fm         Bb         Eb
-And my heart is breaking in front of me
-Cm           F       Ab            G
-She said Goodbye too many times before
-```
-
-**[Chorus]**
-
-```
- Cm Fm         Bb        Eb
-This love has taken its toll on me
- Cm          Fm      Bb           Eb
-She said Goodbye too many times before
-    Cm Fm         Bb         Eb
-And her heart is breaking in front of me
- Cm       F             Ab             G
-I have no choice cause I won't say goodbye anymore
-```
-
----
-
-## 7. Sabot-Sabot — Phylum
-♩ **99 BPM** · Key of **C**
-
-**[Intro]**
-
-```
-C F C F C F C F
-```
-
-**[Verse 1]**
-
-```
-C     F         Am            G
-  Diba duwa-duwa ra man ning atoa
-C         F                Am      G
-  Nganung masakitan man ko kung magkuyog mong duha
-C      F             Am       G
-  Diba nagsabot nata kung mu abot na siya
-F               G
-  Taposon dayon ni natong relasyon na
-```
-
-**[Instrumental]**
-
-```
-C F C F C F C F
-```
-
-**[Verse 2]**
-
-```
-C    F         Am      G
-  Og ako karon nakapangutana
-C          F
-  Nganong karon pa man ka
-Am           G
-  Na may uyab natang duha
-C        F        Am       G
-  Maikog na nuhon ko sa pagbiya na niya
-Am(12x)                             Am-Am
-  Kay gipaila-ila nako sa iyang mama
-```
-
-**[Chorus]**
-
-```
-                     F
-    Maong ikaw akong gibiya-an
-       G               C
-    Na hina-ot nga makalimtan
-
-          C(distort) Am
-    Ang talagsaong kalipay
-         G                   F   G
-    Na kanimo ra matagamtaman
-```
-
-**[Instrumental]**
-
-```
-C F C F C F C F
-```
-
-**[Verse 3]**
-
-```
-C    F         Am      G
-  Og ako karon nakapangutana
-C          F
-  Nganong karon pa man ka
-Am           G
-  Na may uyab natang duha
-C        F        Am       G
-  Maikog na nuhon ko sa pagbiya na niya
-Am(12x)                             Am-Am
-  Kay gipaila-ila nako sa iyang mama
-```
-
-**[Chorus]**
-
-```
-                     F
-    Maong ikaw akong gibiya-an
-       G                C
-    Na hina-ot nga makalimtan
-          C(distort) Am
-    Ang talagsaong kalipay
-         G                   F   G
-    Na kanimo ra matagamtaman
-```
-
-**[Outro]**
-
-```
-F  Am   G     F
- Bisag asa ko taman
-F Am        Am G F
- Palayo sa emong kiliran
-F Am        G     F
- Halos kada lugar akong ma-abtan
-F Am           Am       G          F
- Ikaw ra giyapon akong mahinumduman
-```
-
-**[Chorus x2]**
-
-```
-                     F
-    Maong ikaw akong gibiya-an
-       G                C
-    Na hina-ot nga makalimtan
-          C(distort) Am
-    Ang talagsaong kalipay
-         G                   F   G
-    Na kanimo ra matagamtaman
-```
-
-**[Outro]**
-
-```
-Em Am F G
-
-Em Am Am G F
-```
-
----
-
-## 8. Hindi Na Nga — This Band
-♩ **66 BPM** · Key of **G**
-
-**[Intro]**
-
-```
-G   Dsus4   Em7   Cadd9   x2
-```
-
-**[Verse 1]**
-
-```
-       G              Dsus4
-Ang lahat ay nagbabago
-  Em7                 Cadd9
-Ganon din ang puso ko
-    G                   Dsus4
-Di alam kung paano aamin
-      Em7                   Cadd9 (once)
-Kung dapat bang sabihin to
-```
-
-**[Pre-Chorus]**
-
-```
-            Em7
-Ngunit kailangan nang tapangan
-      Dsus4
-At sabihin ang nararapat
-        Cadd9
-Na hindi na nga
-          Dsus4 (once)
-Hindi na nga
-```
-
-**[Chorus]**
-
-```
-  G               Dsus4 (once, then mute)
-Alam kong mali na
-                       Em7
-Pero di ko kayang bumitaw
-Ika'y masasaktan
-          Cadd9
-Dahil pangako ko'y walang iwanan
-
-  G               Dsus4
-Alam kong huli na
-                           Em7     Cadd9
-Alam kong hindi na nga mahal
-```
-
-**[Verse 2]**
-
-```
-           G
-Oh ilang beses din sinubukan
-   Dsus4
-Pinilit ang nararamdaman
-      Em7
-Pero kulang
-     Cadd9
-May kulang
-```
-
-**[Pre-Chorus]**
-
-```
-   G
-Natatakot na malaman
-   Dsus4
-Natatakot na iyong huhusgahan
-       Em7
-Na hindi na nga
-           Cadd9
-Hindi na nga
-```
-
-**[Chorus]**
-
-```
-  G               Dsus4 (once, then mute)
-Alam kong mali na
-                       Em7
-Pero di ko kayang bumitaw
-Ika'y masasaktan
-          Cadd9
-Dahil pangako ko'y walang iwanan
-
-  G               Dsus4
-Alam kong huli na
-                           Em7     Cadd9
-Alam kong hindi na nga mahal
-```
-
-**[Solo]**
-
-```
-G   Dsus4   Em7   Cadd9   x2
-```
-
-**[Bridge]**
-
-```
-  G              Dsus4
-Alam kong huli na
-  Em7             Cadd9
-Alam kong mali na
-  G               Dsus4
-Alam kong huli na
-  Em7             Cadd9
-Alam kong mali na
-```
-
-**[Chorus]**
-
-```
-  G               Dsus4 (once, then mute)
-Alam kong mali na
-                       Em7
-Pero di ko kayang bumitaw
-Ika'y masasaktan
-          Cadd9
-Dahil pangako ko'y walang iwanan
-
-  G               Dsus4
-Alam kong huli na
-                           Em7        Cadd9
-Alam kong hindi na nga mahal
-```
-
-**[Outro]**
-
-```
-G   Dsus4                        Em7 Cadd9
-            Hindi na nga mahal
-G   Dsus4                        Em7 Cadd9
-            Hindi ka na mahal
-
-       G               Dsus4
-Ang lahat ay nagbabago
-   Em7               Cadd9 (arpeggiate)
-Ganon din ang puso ko
-```
-
----
-
-## 9. Narda — Kamikazee
-♩ **120 BPM** · Key of **D**
-
-**[Intro]**
-
-```
-D       Bm     G      A
-D       Bm     G      A
-```
-
-**[Verse 1]**
-
-```
-D                       Bm
-Tila ibon kung lumipad, Sumabay sa hangin ako'y napatingin
-G                       A
-Sa dalagang nababalot ng hiwaga.
-D                  Bm
-Mapapansin kaya sa dami ng yong ginagawa
-G                        A
-Kung kaagaw ko ang lahat may pag asa bang makilala ka
-```
-
-**[Chorus]**
-
-```
-D                    Bm
-Awit na nananawagan, baka sakaling napakikinggan,
-G                       A
-Pag ibig na palaisipan sa kanta na lang idaraan
-D                    Bm
-Nag aabang sa langit, sa mga ulap sumisilip
-G                     A
-Sa likod ng mga tala, kahit sulyap lang darna
-```
-
-**[Verse 2]**
-
-```
-D                       Bm
-Ang swerte nga naman ni ding, lagi ka nyang kapiling
-G                       A
-Kung ako sa kanya niligawan na kita
-D                  Bm
-Mapapansin kaya sa dami ng yong ginagawa
-G                        A
-Kung kaagaw ko ang lahat may pag asa bang makilala ka
-```
-
-**[Chorus]**
-
-```
-D                    Bm
-Awit na nananawagan, baka sakaling napakikinggan,
-G                       A
-Pag ibig na palaisipan sa kanta na lang idaraan
-D                    Bm
-Nag aabang sa langit, sa mga ulap sumisilip
-G                     A
-Sa likod ng mga tala, kahit sulyap lang darna
-```
-
-**[Verse 3]**
-
-```
-D                       Bm
-Tumalon kaya ako sa bangin, para lang iyong sagipin
-G                       A
-Ito ang tanging paraan para mayakap ka
-D                  Bm
-Darating kaya......sa dami ng ginagawa
-G                        A
-Kung kaagaw ko sila paano na kaya?
-```
-
-**[Chorus]**
-
-```
-D                    Bm
-Awit na nananawagan, baka sakaling napakikinggan,
-G                       A
-Pag ibig na palaisipan sa kanta na lang idaraan
-D                    Bm
-Nag aabang sa langit, sa mga ulap sumisilip
-G                     A
-Sa likod ng mga tala, kahit sulyap lang darna
-
-D                    Bm
-Nag aabang sa langit, sa mga ulap sumisilip
-G                     A
-Sa likod ng mga tala, kahit sulyap lang darna
-```
-
----
-
-## 10. Saksi Ang Langit — December Avenue
-♩ **85 BPM** · Key of **G**
-
-**[Intro]**
-
-```
-Dmaj7 Gmaj7
-Dmaj7 Gmaj7
-```
-
-**[Verse 1]**
-
-```
-            D
-Nangangarap lang
-                  Gmaj7
-Habang ika'y pinagmamasdan
-                D
-Nagbibilang ng iyong hakbang
-                     Gmaj7
-Hanggang ika'y aking mahagkan
-```
-
-**[Pre-Chorus]**
-
-```
-                   Em
-'Di sasayangin ang oras sa pag-ibig mo
-                G
-Mas pipiliin ko
-                                    D
-Ibigay lahat pati itong aking mundo
-```
-
-**[Chorus]**
-
-```
-                     Gmaj7
-Halika't sumayaw sa ilalim ng bituin
-                       D/F#
-Habang ako'y nakatingin sa'yo
-                      Em       G
-Wala ng 'kong ibang mahihiling
-                          D G
-Saksi ang langit sa'tin
-```
-
-**[Verse 2]**
-
-```
-               D
-'Wag kang magtaka
-                       G
-Kung bakit tayo pinag-isa
-                D
-'Wag kanang kabahan
-                G
-Ito'y hindi panaginip lang
-```
-
-**[Pre-Chorus]**
-
-```
-                  Em
-'Di gumagalaw ang oras sa paligid ko
-                   G
-Pati itong mundo'y
-                                    D
-Tumitigil habang ako'y nasa tabi mo
-```
-
-**[Chorus]**
-
-```
-                     Gmaj7
-Halika't sumayaw sa ilalim ng bituin
-                       D/F#
-Habang ako'y nakatingin sa'yo
-                      Em       G
-Wala ng 'kong ibang mahihiling
-Saksi ang langit sa'tin
-```
-
-**[Refrain]**
-
-```
-D              G
-  Oh-oh, oh-oh-oh
-                Em
-Oh-oh, oh-oh-oh
-                G
-Oh-oh, oh-oh-oh
-                D
-Oh-oh, oh-oh-oh
-Saksi ang langit
-Saksi ang langit sa'tin
-G
-  Saksi ang langit
-Saksi ang langit sa'tin
-Em
-   Saksi ang langit
-Saksi ang langit sa'tin
-G
-    Saksi ang langit
-```
-
-**[Pre-Chorus]**
-
-```
-                  Em
-'Di gumagalaw ang oras sa paligid ko
-                   G
-Pati itong mundo'y
-                                    D
-Tumitigil habang ako'y nasa tabi mo
-```
-
-**[Chorus]**
-
-```
-                     Gmaj7
-Halika't sumayaw sa ilalim ng bituin
-                        D/F#
-Habang ako'y nakatingin sa'yo
-                      Em        G
-Wala ng 'kong ibang mahihiling
-                        D
-Saksi ang langit sa'tin (Saksi ang langit)
-                     Gmaj7
-Halika't sumayaw sa ilalim ng bituin
-                      D/F#
-Habang ako'y nakadikit sa'yo
-                     Em       G
-Wala na'kong ibang mahihiling
-                 D
-Saksi ang langit
-```
-
----
-
-## 11. Pangako — Cueshé
-♩ **120 BPM** · Key of **F**
-
-**[Intro]**
-
-```
-F (x5)
-```
-
-**[Verse 1]**
-
-```
-F
-  Kislap ng yong mga mata
-Ako'y iyong nadadala
-                          Bb
-Parang anghel ang yong ganda
-                F
-Di maiwasan hahanap-hanapin ka
- F
-O kay tamis ng yong mga ngiti
-Ako'y iyong naaakit
-                      Bb
-Tulad ng rosas nakakaaliw
-                            C
-Di mapigilang mabighani sa iyo
-```
-
-**[Chorus 1]**
-
-```
-   F
-At hindi ko hahayaan na
- Am
-ika'y mawawala
-     Bb
-Pipilitin ko ang puso
-        F
-mong mahulog sa akin
-```
-
-**[Verse 2]**
-
-```
-F
-    Pagsapit ng gabi
-Sa isip ay ikaw pa rin
-                          Bb
-Mga larawan mo sa aking tabi
-                C
-Na laging nakamasid
-```
-
-**[Chorus 1]**
-
-```
-   F
-At hindi ko hahayaan na
- Am
-ika'y mawawala
-     Bb
-Pipilitin ko ang puso
-        F
-mong mahulog sa akin
-```
-
-**[Chorus 2]**
-
-```
-   F
-At hinding-hindi ka
-                 Am
-magaalinlangan pangako ito
-     Bb                    F
-Gagawin ang lahat para sa iyo
-```
-
-**[Bridge]**
-
-```
-C            Bb Bb Dm
-  Oh woh woh hoh
-C             Bb C
-  Oh woh wohh wohh
-```
-
-**[Guitar Solo]**
-
-```
-F  Am  Bb  F
-```
-
-**[Chorus 1]**
-
-```
-   F
-At hindi ko hahayaan na
- Am
-ika'y mawawala
-     Bb
-Pipilitin ko ang puso
-        F
-mong mahulog sa akin
-```
-
-**[Chorus 2]**
-
-```
-   F
-At hinding-hindi ka
-                 Am
-magaalinlangan pangako ito
-     Bb                    F
-Gagawin ang lahat para sa iyo
-```
-
-**[Outro]**
-
-```
-F  F (hold)
-```
-
----
-
-## 12. Ang Huling El Bimbo — Eraserheads
+## 16. Ang Huling El Bimbo — Eraserheads
 ♩ **90 BPM** · Key of **G**
 
 **[Intro]**
@@ -1612,388 +2121,6 @@ La la
 La la
          G
 La la la la
-```
-
----
-
-## 13. Ulan — Cueshé
-*Half Empty, Half Full*
-♩ **~72 BPM** · Key of **B**
-
-**[Intro]**
-
-```
-B D# x2
-B D# G#m E
-```
-
-**[Verse 1]**
-
-```
-B                F#
-Lagi na lang umuulan
-B                   F#
-Parang walang katapusan
-          C#        E
-Tulad ng paghihirap ko ngayon
-      B          D#
-Parang walang humpay
-        G#m
-Sa kabila ng lahat
-          G
-Ng aking pagsisikap
-      B
-Na limutin ka
-   F#             B D# G#m E
-Ay di pa rin magawa
-```
-
-**[Verse 2]**
-
-```
-B                  F#
-Hindi naman ako tanga
-B                  F#
-Alam ko na wala ka na
-       C#            E
-Pero mahirap lang na tanggapin
-   B         D#
-Di na kita kapiling
-       G#m
-Iniwan mo akong
-     G
-Nag iisa
-      B
-Sa gitna ng dilim
-     F#                 B     F#   E
-At basang basa pa sa ulan
-```
-
-**[Chorus]**
-
-```
-B                D#
-Pero wag mag alala
-       G#m          C#7
-Di na kita gagambalain
-           C#m
-Alam ko namang ngayong
-      E                 B  F#  E
-May kapiling ka ng iba
-B                       D#
-Tanging hiling ko sa 'yo
-     G#m        C#7
-Na tuwing umuulan
-            C#m
-Maalala mo sanang may
-   E             B D# G#m C# C#m F# B (Ad Lib)
-Nagmamahal sa 'yo, oh, oh, oh.....
-```
-
-**[Verse 3]**
-
-```
-B                 F#
-Lagi na lang umuulan
-B                  F#
-Parang walang katapusan
-           C#           E
-Tulad ng paghihirap ko ngayon
-      B         D#
-Parang walang humpay
-       G#m
-Iniwan mo akong
-    G
-Nag iisa
-      B
-Sa gitna ng dilim
-     F#                   B  F#    E
-At basang basa pa sa ulan
-```
-
-**[Chorus]**
-
-```
-B                D#
-Pero wag mag alala
-       G#m         C#
-Di na kita gagambalain
-           C#m
-Alam ko namang ngayong
-      E               B  F#   E
-May kapiling ka ng iba
-B                     D#
-Tanging hiling ko sa 'yo
-     G#m        C#
-Na tuwing umuulan
-            C#m
-Maalala mo sanang may
-   E            B   F#   E
-Nagmamahal sa 'yo ako
-```
-
-**[Outro]**
-
-```
-B     F#
-La la la la la
-G#m   F#
-La la la la la
-A     E     B
-La la la la la....
-```
-
----
-
-## 14. Sine Sine — Missing Filemon
-♩ **90 BPM** · Key of **A**
-
-**[Intro]**
-
-```
-D B E       E7
-```
-
-**[Verse 1]**
-
-```
-A       C#7            F#m
-Sinesine wala tay laing lingaw
-  A7
-Kandila luyo sa habol
-D                Dm
-Katawang binayran og pisong kinawat
-A              E
-Sa gubaong pitakang lola
-A        C#7
-Anino sa mga artistang papel
-  A7
-Gihinganlan tag si Pedro'g
-D                 Dm
-Sabel Sila'ng bida niadtong estorya
-A                E
-Sa gugma nga way katumanan
-```
-
-**[Chorus]**
-
-```
-A          C#7        F#m
-Sine..sinesine sa bata pa
-A7                 D
-Di na unta matapos pa
-  C#m    F#m    Bm         E
-Bisan pa man sa pagdagan sa panahon
-A          C#7        F#m
-Lantawon mga eksena nga molabay
-A7                 D
-Tanang tawo makasakay
-
-C#m   F#m    Bm         E
-Saksihan ta ang pagdagan sa panahon
-
-D B7 E
-panahon..
-```
-
-**[Verse 2]**
-
-```
-A       C#7            F#m
-Sigesigeha lang imong paglakaw
-  A7
-Ay'g kahadlok may kahayag
-D                Dm
-Modan-ag sa dalang mangitngit
-  A                      E
-Lakip na ang langit daw lapad nga adlaw
-A       C#7            F#m
-Ang kinabuhi sugilanong hiwi
-  A7
-Kalipay kasakit ug kalami
-D                Dm
-Silang bida niining salida
-A                      E
-Sa gugma nga way katumanan
-```
-
-**[Chorus]**
-
-```
-A          C#7         F#m
-Sine..sinesine sa bata pa
-A7                   D
-Di na unta matapos pa
-  C#m    F#m      Bm       E
-Bisan pa man sa pagdagan sa panahon
-A          C#7         F#m
-Lantawon mga eksena nga molabay
-A7                   D
-Tanang tawo makasakay
-C#m   F#m      Bm        E
-Saksihan ta ang pagdagan sa panahon
-
-D B7 E
-panahon..
-```
-
-**[Instrumental]**
-
-```
-A      C#7   F#m    A7     D     Dm     A      E
-```
-
-**[Chorus]**
-
-```
-A         C#7         F#m
-Sine..sinesine sa bata pa
-A7                 D
-Di na unta matapos pa
- C#m   | F#m   |  Bm         E
-Bisan pa man sa pagdagan sa panahon
-A         C#7         F#m
-Lantawon mga eksena nga molabay
-A7                 D
-Tanang tawo makasakay
-C#m   | F#m   |  Bm         E
-Saksihan ta ang pagdagan sa panahon
-```
-
----
-
-## 15. Nobela — Join the Club
-♩ **80 BPM** · Key of **E**
-
-**[Intro]**
-
-```
-D# Gm        D# Gm G#
-```
-
-**[Verse]**
-
-```
-G#          D#
-ngumiti kahit na napipilitan
-
-G#                D#
-kahit pa sinasadya
-G#             D#
-mo akong masaktan paminsan-minsan
-G#                 A# (break)
-bawat sandali na lang
-G#              D#
-tulad mo ba akong nahihirapan
-G#             D#
-lalo't naiisip ka
-G#             D#
-di ko na kaya pang makalimutan
-C#                 A#
-bawat sandali na lang
-```
-
-**[Chorus]**
-
-```
-    G#           A#
-at aalis magbabalik
-      D#         Cm
-at uuliting sabihin
-       G#         A#
-na mahalin kat sambitin
-         Gm      Cm
-kahit muli masaktan
-         G#
-sa pag-alis
-ako'y magbabalik
-       G#m A#
-sana naman
-```
-
-**[Verse]**
-
-```
-G#              D#
-sa isang marikit na alaala
-G#              D#
-pangitahing kay ganda
-G#              D#
-sana ngay pagbigyan
-G#
-na ng tadhana
-                 A#
-bawat sandali na lang
-G#              D#
-sumabay sa biglang pagkabahala
-G#              D#
-lumabis ang pagtataka
-G#              D#
-tunay na pagsintang di alintana
-C#                 A#
-bawat sandali na lang
-```
-
-**[Chorus]**
-
-```
-    G#           A#
-at aalis magbabalik
-      D#         Cm
-at uuliting sabihin
-       G#         A#
-na mahalin kat sambitin
-         Gm      Cm
-kahit muli masaktan
-         G#
-sa pag-alis
-ako'y magbabalik
-       G#m
-sana naman
-```
-
-**[Solo 1]**
-
-```
-C#M7 A#m9 F#M7 G# x2 (break)
-```
-
-**[Solo 2]**
-
-```
-F# F#m C#M7 C#7
-F# F#m G#
-```
-
-**[Bridge]**
-
-```
-    F#          C#
-ngumiti kahit na napipilitan
-F#              C#
-kahit pa sinasadya
-F#             C#
-mo akong masaktan paminsan-minsan
-B                  G#
-bawat sandali na lang
-```
-
-**[Chorus]**
-
-```
-     F#           G#
-at aalis magbabalik
-     C#          A#m
-at uuliting sabihin
-     F#           G#
-na mahalin kat sambitin
-      Fm       A#m
-kahit muli masaktan
-     F#
-sa pag-alis
-ako'y magbabalik
-      F#m F# G#
-sana naman
 ```
 
 ---

@@ -94,7 +94,7 @@ var doc = [];
 doc.push('# Oktoberfest — Chord Guide');
 doc.push('');
 doc.push('> ' + SONGS.length + ' songs · designed to match the transpose-toolbar experience in `chord-guide-dontblink.md` (see `chord_guide_oktoberfest.html`)');
-doc.push('> Source chords: the existing chord guides in this project (`SEPTEMBER/chord-guide-september.md`, `SEPTEMBER/chord-guide-v2.md`, `September-25-Songs/chord-guide-september-25.md`, `September-25-Songs/chord-guide-set-2-sep-25.md`); #8 and #9 from the `.docx` chord sheets in `October/` (`Hindi_Na_Nga_Chords_by_This_Band.docx`, `Narda_Chords_by_Kamikazee.docx`)');
+doc.push('> Source chords: the existing chord guides in this project (`SEPTEMBER/chord-guide-september.md`, `SEPTEMBER/chord-guide-v2.md`, `September-25-Songs/chord-guide-september-25.md`, `September-25-Songs/chord-guide-set-2-sep-25.md`); #7 and #8 from the `.docx` chord sheets in `October/` (`Narda_Chords_by_Kamikazee.docx`, `Hindi_Na_Nga_Chords_by_This_Band.docx`)');
 doc.push('');
 doc.push('---');
 doc.push('');
@@ -111,7 +111,7 @@ doc.push("- Sharp/flat spelling automatically follows the target key's conventio
 doc.push('');
 doc.push('The transpose engine lives in `transpose.js` (also usable from Node) with its test suite in `test_transpose.js` (`node test_transpose.js`). Shared with the other guides in this project.');
 doc.push('');
-doc.push("BPM notes: taken from each song's source sheet / guide (Hindi Na Nga 66 and Narda 120 from their sheets' strumming sections). Tatsulok (102) and Pangako (120) have no BPM on their sheets; those tempos were set for this chart. Tatsulok is written in B minor as on the sheet — its Key toolbar shows minor names (Bm). Bulong (Kitchie Nadal) Verse 2 uses the Verse 1 chord pattern, written in for this chart. Hindi Na Nga's section labels were added for this chart (its sheet has none).");
+doc.push("BPM notes: taken from each song's source sheet / guide (Hindi Na Nga 66 and Narda 120 from their sheets' strumming sections). Tatsulok (102), Pangako (120) and Gi Kumot-Kumot (~120) have no BPM on their sheets; those tempos were set for this chart. Tatsulok is written in B minor as on the sheet — its Key toolbar shows minor names (Bm). Bulong (Kitchie Nadal) Verse 2 uses the Verse 1 chord pattern, written in for this chart. Hindi Na Nga's section labels were added for this chart (its sheet has none).");
 doc.push('');
 doc.push('**Auto-scroll** in `chord_guide_oktoberfest.html` stops at the end of each song (when its last line reaches the bottom of the screen); press Auto-Scroll again to carry on into the next song at that song\'s BPM.');
 doc.push('');

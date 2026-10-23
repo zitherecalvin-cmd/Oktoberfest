@@ -43,6 +43,11 @@
  * (Em Am F G / Em Am Am G F) added at the end of its .docx
  * (AUGUST 2026/CHORDS/Sabot_Sabot_Chords_by_Phylum.docx).
  *
+ * 2026-10-23 (user-requested): set re-ordered. Gi Kumot-Kumot (The
+ * Ambassadors) added as song 1, verbatim from
+ * September-25-Songs/songs-data-set-2-sep-25.js (matches its .docx), with
+ * ~120 BPM set by the user; Ang Huling El Bimbo moved to the end (#16).
+ *
  * Tatsulok is written in B minor, so it's stored as key "B" + minor (the
  * HTML labels its keys as minor and spells by the relative major).
  *
@@ -61,6 +66,1003 @@
   var SONGS = [
     {
       number: 1,
+      title: "Gi Kumot-Kumot",
+      artist: "The Ambassadors",
+      key: "A",
+      bpm: 120,
+      bpmApprox: true,
+      sections: [
+        { label: "Verse 1", lines: [
+          "     A                            E",
+          "     gpanumpa ko na, nga kitang duha",
+          "          D                   E",
+          "     magtiunay sa ato nga gugma.",
+          "                A              E",
+          "     abi mog kita, magkadayon na",
+          "             D             E",
+          "     kay sa gugma nanumpa ta."
+        ] },
+        { label: "Pre-Chorus", lines: [
+          "  F#m                          Bm",
+          "  kalit gibyaan ikaaw nga naghilak",
+          "            G        D                 E",
+          "  mao nang dagway mo sa samin daw mabuak."
+        ] },
+        { label: "Chorus", lines: [
+          "                     A",
+          "     kay gikumot-kumot(gikumot-kumot)",
+          "                     E",
+          "     sa dakong kamot(sa dakong kamot)",
+          "                   D                        E",
+          "     ang dughan mong pagkadako, dako sa gugma",
+          "                       A",
+          "     kay gikumot-kumot(GIKUMOT-KUMOT)",
+          "                    E",
+          "     sa dakong kamot(sa dakong kamot)",
+          "                 D                        E",
+          "     ang dughan mong pagkadako, dako sa gugma."
+        ] },
+        { label: "Verse 1", lines: [
+          "// Repeat verse 1",
+          "     A                            E",
+          "     gpanumpa ko na, nga kitang duha",
+          "          D                   E",
+          "     magtiunay sa ato nga gugma.",
+          "                A              E",
+          "     abi mog kita, magkadayon na",
+          "             D             E",
+          "     kay sa gugma nanumpa ta."
+        ] },
+        { label: "Pre-Chorus", lines: [
+          "  F#m                          Bm",
+          "  kalit gibyaan ikaaw nga naghilak",
+          "            G        D                 E",
+          "  mao nang dagway mo sa samin daw mabuak."
+        ] },
+        { label: "Chorus", lines: [
+          "                     A",
+          "     kay gikumot-kumot(gikumot-kumot)",
+          "                     E",
+          "     sa dakong kamot(sa dakong kamot)",
+          "                   D                        E",
+          "     ang dughan mong pagkadako, dako sa gugma",
+          "                       A",
+          "     kay gikumot-kumot(GIKUMOT-KUMOT)",
+          "                    E",
+          "     sa dakong kamot(sa dakong kamot)",
+          "                 D                        E",
+          "     ang dughan mong pagkadako, dako sa gugma."
+        ] },
+        { label: "Tag", lines: [
+          "                    A",
+          "      Kay  gikumot-kumoT (gikumot-kumot)",
+          "                 E",
+          "      gikumot-kumot, gikumot-kumot",
+          "                 D",
+          "      gikumot-kumot, gikumot-kumot",
+          "                    E",
+          "      gikumot-kumoooooot.."
+        ] },
+        { label: "Pre-Chorus", lines: [
+          "// Repeat Ref. and Cho.",
+          "  F#m                          Bm",
+          "  kalit gibyaan ikaaw nga naghilak",
+          "            G        D                 E",
+          "  mao nang dagway mo sa samin daw mabuak."
+        ] },
+        { label: "Chorus", lines: [
+          "                     A",
+          "     kay gikumot-kumot(gikumot-kumot)",
+          "                     E",
+          "     sa dakong kamot(sa dakong kamot)",
+          "                   D                        E",
+          "     ang dughan mong pagkadako, dako sa gugma",
+          "                       A",
+          "     kay gikumot-kumot(GIKUMOT-KUMOT)",
+          "                    E",
+          "     sa dakong kamot(sa dakong kamot)",
+          "                 D                        E",
+          "     ang dughan mong pagkadako, dako sa gugma."
+        ] }
+      ]
+    },
+    {
+      number: 2,
+      title: "Nobela",
+      artist: "Join the Club",
+      key: "E",
+      bpm: 80,
+      sections: [
+        { label: "Intro", lines: [
+          "D# Gm        D# Gm G#"
+        ] },
+        { label: "Verse", lines: [
+          "G#          D#",
+          "ngumiti kahit na napipilitan",
+          "",
+          "G#                D#",
+          "kahit pa sinasadya",
+          "G#             D#",
+          "mo akong masaktan paminsan-minsan",
+          "G#                 A# (break)",
+          "bawat sandali na lang",
+          "G#              D#",
+          "tulad mo ba akong nahihirapan",
+          "G#             D#",
+          "lalo't naiisip ka",
+          "G#             D#",
+          "di ko na kaya pang makalimutan",
+          "C#                 A#",
+          "bawat sandali na lang"
+        ] },
+        { label: "Chorus", lines: [
+          "    G#           A#",
+          "at aalis magbabalik",
+          "      D#         Cm",
+          "at uuliting sabihin",
+          "       G#         A#",
+          "na mahalin kat sambitin",
+          "         Gm      Cm",
+          "kahit muli masaktan",
+          "         G#",
+          "sa pag-alis",
+          "ako'y magbabalik",
+          "       G#m A#",
+          "sana naman"
+        ] },
+        { label: "Verse", lines: [
+          "G#              D#",
+          "sa isang marikit na alaala",
+          "G#              D#",
+          "pangitahing kay ganda",
+          "G#              D#",
+          "sana ngay pagbigyan",
+          "G#",
+          "na ng tadhana",
+          "                 A#",
+          "bawat sandali na lang",
+          "G#              D#",
+          "sumabay sa biglang pagkabahala",
+          "G#              D#",
+          "lumabis ang pagtataka",
+          "G#              D#",
+          "tunay na pagsintang di alintana",
+          "C#                 A#",
+          "bawat sandali na lang"
+        ] },
+        { label: "Chorus", lines: [
+          "    G#           A#",
+          "at aalis magbabalik",
+          "      D#         Cm",
+          "at uuliting sabihin",
+          "       G#         A#",
+          "na mahalin kat sambitin",
+          "         Gm      Cm",
+          "kahit muli masaktan",
+          "         G#",
+          "sa pag-alis",
+          "ako'y magbabalik",
+          "       G#m",
+          "sana naman"
+        ] },
+        { label: "Solo 1", lines: [
+          "C#M7 A#m9 F#M7 G# x2 (break)"
+        ] },
+        { label: "Solo 2", lines: [
+          "F# F#m C#M7 C#7",
+          "F# F#m G#"
+        ] },
+        { label: "Bridge", lines: [
+          "    F#          C#",
+          "ngumiti kahit na napipilitan",
+          "F#              C#",
+          "kahit pa sinasadya",
+          "F#             C#",
+          "mo akong masaktan paminsan-minsan",
+          "B                  G#",
+          "bawat sandali na lang"
+        ] },
+        { label: "Chorus", lines: [
+          "     F#           G#",
+          "at aalis magbabalik",
+          "     C#          A#m",
+          "at uuliting sabihin",
+          "     F#           G#",
+          "na mahalin kat sambitin",
+          "      Fm       A#m",
+          "kahit muli masaktan",
+          "     F#",
+          "sa pag-alis",
+          "ako'y magbabalik",
+          "      F#m F# G#",
+          "sana naman"
+        ] }
+      ]
+    },
+    {
+      number: 3,
+      title: "Ulan",
+      artist: "Cueshé",
+      subtitle: "Half Empty, Half Full",
+      key: "B",
+      bpm: 72,
+      bpmApprox: true,
+      sections: [
+        { label: "Intro", lines: [
+          "B D# x2",
+          "B D# G#m E"
+        ] },
+        { label: "Verse 1", lines: [
+          "B                F#",
+          "Lagi na lang umuulan",
+          "B                   F#",
+          "Parang walang katapusan",
+          "          C#        E",
+          "Tulad ng paghihirap ko ngayon",
+          "      B          D#",
+          "Parang walang humpay",
+          "        G#m",
+          "Sa kabila ng lahat",
+          "          G",
+          "Ng aking pagsisikap",
+          "      B",
+          "Na limutin ka",
+          "   F#             B D# G#m E",
+          "Ay di pa rin magawa"
+        ] },
+        { label: "Verse 2", lines: [
+          "B                  F#",
+          "Hindi naman ako tanga",
+          "B                  F#",
+          "Alam ko na wala ka na",
+          "       C#            E",
+          "Pero mahirap lang na tanggapin",
+          "   B         D#",
+          "Di na kita kapiling",
+          "       G#m",
+          "Iniwan mo akong",
+          "     G",
+          "Nag iisa",
+          "      B",
+          "Sa gitna ng dilim",
+          "     F#                 B     F#   E",
+          "At basang basa pa sa ulan"
+        ] },
+        { label: "Chorus", lines: [
+          "B                D#",
+          "Pero wag mag alala",
+          "       G#m          C#7",
+          "Di na kita gagambalain",
+          "           C#m",
+          "Alam ko namang ngayong",
+          "      E                 B  F#  E",
+          "May kapiling ka ng iba",
+          "B                       D#",
+          "Tanging hiling ko sa 'yo",
+          "     G#m        C#7",
+          "Na tuwing umuulan",
+          "            C#m",
+          "Maalala mo sanang may",
+          "   E             B D# G#m C# C#m F# B (Ad Lib)",
+          "Nagmamahal sa 'yo, oh, oh, oh....."
+        ] },
+        { label: "Verse 3", lines: [
+          "B                 F#",
+          "Lagi na lang umuulan",
+          "B                  F#",
+          "Parang walang katapusan",
+          "           C#           E",
+          "Tulad ng paghihirap ko ngayon",
+          "      B         D#",
+          "Parang walang humpay",
+          "       G#m",
+          "Iniwan mo akong",
+          "    G",
+          "Nag iisa",
+          "      B",
+          "Sa gitna ng dilim",
+          "     F#                   B  F#    E",
+          "At basang basa pa sa ulan"
+        ] },
+        { label: "Chorus", lines: [
+          "B                D#",
+          "Pero wag mag alala",
+          "       G#m         C#",
+          "Di na kita gagambalain",
+          "           C#m",
+          "Alam ko namang ngayong",
+          "      E               B  F#   E",
+          "May kapiling ka ng iba",
+          "B                     D#",
+          "Tanging hiling ko sa 'yo",
+          "     G#m        C#",
+          "Na tuwing umuulan",
+          "            C#m",
+          "Maalala mo sanang may",
+          "   E            B   F#   E",
+          "Nagmamahal sa 'yo ako"
+        ] },
+        { label: "Outro", lines: [
+          "B     F#",
+          "La la la la la",
+          "G#m   F#",
+          "La la la la la",
+          "A     E     B",
+          "La la la la la...."
+        ] }
+      ]
+    },
+    {
+      number: 4,
+      title: "Pangako",
+      artist: "Cueshé",
+      key: "F",
+      bpm: 120,
+      sections: [
+        { label: "Intro", lines: [
+          "F (x5)"
+        ] },
+        { label: "Verse 1", lines: [
+          "F",
+          "  Kislap ng yong mga mata",
+          "Ako'y iyong nadadala",
+          "                          Bb",
+          "Parang anghel ang yong ganda",
+          "                F",
+          "Di maiwasan hahanap-hanapin ka",
+          " F",
+          "O kay tamis ng yong mga ngiti",
+          "Ako'y iyong naaakit",
+          "                      Bb",
+          "Tulad ng rosas nakakaaliw",
+          "                            C",
+          "Di mapigilang mabighani sa iyo"
+        ] },
+        { label: "Chorus 1", lines: [
+          "   F",
+          "At hindi ko hahayaan na",
+          " Am",
+          "ika'y mawawala",
+          "     Bb",
+          "Pipilitin ko ang puso",
+          "        F",
+          "mong mahulog sa akin"
+        ] },
+        { label: "Verse 2", lines: [
+          "F",
+          "    Pagsapit ng gabi",
+          "Sa isip ay ikaw pa rin",
+          "                          Bb",
+          "Mga larawan mo sa aking tabi",
+          "                C",
+          "Na laging nakamasid"
+        ] },
+        { label: "Chorus 1", lines: [
+          "   F",
+          "At hindi ko hahayaan na",
+          " Am",
+          "ika'y mawawala",
+          "     Bb",
+          "Pipilitin ko ang puso",
+          "        F",
+          "mong mahulog sa akin"
+        ] },
+        { label: "Chorus 2", lines: [
+          "   F",
+          "At hinding-hindi ka",
+          "                 Am",
+          "magaalinlangan pangako ito",
+          "     Bb                    F",
+          "Gagawin ang lahat para sa iyo"
+        ] },
+        { label: "Bridge", lines: [
+          "C            Bb Bb Dm",
+          "  Oh woh woh hoh",
+          "C             Bb C",
+          "  Oh woh wohh wohh"
+        ] },
+        { label: "Guitar Solo", lines: [
+          "F  Am  Bb  F"
+        ] },
+        { label: "Chorus 1", lines: [
+          "   F",
+          "At hindi ko hahayaan na",
+          " Am",
+          "ika'y mawawala",
+          "     Bb",
+          "Pipilitin ko ang puso",
+          "        F",
+          "mong mahulog sa akin"
+        ] },
+        { label: "Chorus 2", lines: [
+          "   F",
+          "At hinding-hindi ka",
+          "                 Am",
+          "magaalinlangan pangako ito",
+          "     Bb                    F",
+          "Gagawin ang lahat para sa iyo"
+        ] },
+        { label: "Outro", lines: [
+          "F  F (hold)"
+        ] }
+      ]
+    },
+    {
+      number: 5,
+      title: "Sine Sine",
+      artist: "Missing Filemon",
+      key: "A",
+      bpm: 90,
+      sections: [
+        { label: "Intro", lines: [
+          "D B E       E7"
+        ] },
+        { label: "Verse 1", lines: [
+          "A       C#7            F#m",
+          "Sinesine wala tay laing lingaw",
+          "  A7",
+          "Kandila luyo sa habol",
+          "D                Dm",
+          "Katawang binayran og pisong kinawat",
+          "A              E",
+          "Sa gubaong pitakang lola",
+          "A        C#7",
+          "Anino sa mga artistang papel",
+          "  A7",
+          "Gihinganlan tag si Pedro'g",
+          "D                 Dm",
+          "Sabel Sila'ng bida niadtong estorya",
+          "A                E",
+          "Sa gugma nga way katumanan"
+        ] },
+        { label: "Chorus", lines: [
+          "A          C#7        F#m",
+          "Sine..sinesine sa bata pa",
+          "A7                 D",
+          "Di na unta matapos pa",
+          "  C#m    F#m    Bm         E",
+          "Bisan pa man sa pagdagan sa panahon",
+          "A          C#7        F#m",
+          "Lantawon mga eksena nga molabay",
+          "A7                 D",
+          "Tanang tawo makasakay",
+          "",
+          "C#m   F#m    Bm         E",
+          "Saksihan ta ang pagdagan sa panahon",
+          "",
+          "D B7 E",
+          "panahon.."
+        ] },
+        { label: "Verse 2", lines: [
+          "A       C#7            F#m",
+          "Sigesigeha lang imong paglakaw",
+          "  A7",
+          "Ay'g kahadlok may kahayag",
+          "D                Dm",
+          "Modan-ag sa dalang mangitngit",
+          "  A                      E",
+          "Lakip na ang langit daw lapad nga adlaw",
+          "A       C#7            F#m",
+          "Ang kinabuhi sugilanong hiwi",
+          "  A7",
+          "Kalipay kasakit ug kalami",
+          "D                Dm",
+          "Silang bida niining salida",
+          "A                      E",
+          "Sa gugma nga way katumanan"
+        ] },
+        { label: "Chorus", lines: [
+          "A          C#7         F#m",
+          "Sine..sinesine sa bata pa",
+          "A7                   D",
+          "Di na unta matapos pa",
+          "  C#m    F#m      Bm       E",
+          "Bisan pa man sa pagdagan sa panahon",
+          "A          C#7         F#m",
+          "Lantawon mga eksena nga molabay",
+          "A7                   D",
+          "Tanang tawo makasakay",
+          "C#m   F#m      Bm        E",
+          "Saksihan ta ang pagdagan sa panahon",
+          "",
+          "D B7 E",
+          "panahon.."
+        ] },
+        { label: "Instrumental", lines: [
+          "A      C#7   F#m    A7     D     Dm     A      E"
+        ] },
+        { label: "Chorus", lines: [
+          "A         C#7         F#m",
+          "Sine..sinesine sa bata pa",
+          "A7                 D",
+          "Di na unta matapos pa",
+          " C#m   | F#m   |  Bm         E",
+          "Bisan pa man sa pagdagan sa panahon",
+          "A         C#7         F#m",
+          "Lantawon mga eksena nga molabay",
+          "A7                 D",
+          "Tanang tawo makasakay",
+          "C#m   | F#m   |  Bm         E",
+          "Saksihan ta ang pagdagan sa panahon"
+        ] }
+      ]
+    },
+    {
+      number: 6,
+      title: "This Love",
+      artist: "Maroon 5",
+      key: "G",
+      bpm: 95,
+      sections: [
+        { label: "Intro", lines: [
+          "G       Cm   Fm       G7/D"
+        ] },
+        { label: "Verse 1", lines: [
+          "G                       Cm",
+          "I was so high I did not recognize",
+          "                       Fm",
+          "The fire burning in her eyes",
+          "               G7/D",
+          "The chaos that controlled my mind",
+          "G                            Cm",
+          "whispered goodbye as she got on a plane",
+          "            Fm",
+          "Never to return again",
+          "                 G7/D",
+          "But always in my heart"
+        ] },
+        { label: "Chorus", lines: [
+          " Cm Fm        Bb        Eb",
+          "This love has taken its toll on me",
+          " Cm          Fm      Bb           Eb",
+          "She said Goodbye too many times before",
+          "",
+          "    Cm Fm        Bb          Eb",
+          "And her heart is breaking in front of me",
+          " Cm       F            Ab              G",
+          "I have no choice cause I won't say goodbye anymore"
+        ] },
+        { label: "Interlude", lines: [
+          "G Cm     Fm   G7/D"
+        ] },
+        { label: "Verse 2", lines: [
+          "G                           Cm",
+          "I tried my best to feed her appetite",
+          "                 Fm",
+          "Keep her coming every night",
+          "                    G7/D",
+          "So hard to keep her satisfied",
+          "G                              Cm",
+          "Kept playing love like it was just a game",
+          "              Fm",
+          "Pretending to feel the same",
+          "                     G7/D",
+          "Then turn around and leave again (oh!)"
+        ] },
+        { label: "Chorus", lines: [
+          " Cm Fm        Bb         Eb",
+          "This love has taken its toll on me",
+          " Cm          Fm      Bb           Eb",
+          "She said Goodbye too many times before",
+          "    Cm Fm        Bb          Eb",
+          "And her heart is breaking in front of me",
+          " Cm       F             Ab             G",
+          "I have no choice cause I won't say goodbye anymore"
+        ] },
+        { label: "Interlude", lines: [
+          "G   Cm   Fm   G7/D"
+        ] },
+        { label: "Bridge", lines: [
+          "Fm",
+          "I'll fix these broken things",
+          "Ebmaj7",
+          "Repair your broken wings",
+          "G7                          Cm",
+          "And make sure everything's alright (it's alright)",
+          "Fm",
+          "My pressure on her hips",
+          "Ebmaj7",
+          "Sinking my fingertips",
+          "",
+          "G",
+          "Into every inch of you",
+          "G7",
+          "Cause I know that's what you want me to do"
+        ] },
+        { label: "Chorus", lines: [
+          " Cm Fm         Bb        Eb",
+          "This love has taken its toll on me",
+          " Cm          Fm      Bb           Eb",
+          "She said Goodbye too many times before",
+          "    Cm Fm         Bb         Eb",
+          "And her heart is breaking in front of me",
+          " Cm       F             Ab             G",
+          "I have no choice cause I won't say goodbye anymore"
+        ] },
+        { label: "Chorus", lines: [
+          " Cm Fm         Bb        Eb",
+          "This love has taken its toll on me",
+          " Cm          Fm      Bb           Eb",
+          "She said Goodbye too many times before",
+          "    Cm Fm         Bb         Eb",
+          "And my heart is breaking in front of me",
+          "Cm           F       Ab            G",
+          "She said Goodbye too many times before"
+        ] },
+        { label: "Chorus", lines: [
+          " Cm Fm         Bb        Eb",
+          "This love has taken its toll on me",
+          " Cm          Fm      Bb           Eb",
+          "She said Goodbye too many times before",
+          "    Cm Fm         Bb         Eb",
+          "And her heart is breaking in front of me",
+          " Cm       F             Ab             G",
+          "I have no choice cause I won't say goodbye anymore"
+        ] }
+      ]
+    },
+    {
+      number: 7,
+      title: "Narda",
+      artist: "Kamikazee",
+      key: "D",
+      bpm: 120,
+      sections: [
+        { label: "Intro", lines: [
+          "D       Bm     G      A",
+          "D       Bm     G      A"
+        ] },
+        { label: "Verse 1", lines: [
+          "D                       Bm",
+          "Tila ibon kung lumipad, Sumabay sa hangin ako'y napatingin",
+          "G                       A",
+          "Sa dalagang nababalot ng hiwaga.",
+          "D                  Bm",
+          "Mapapansin kaya sa dami ng yong ginagawa",
+          "G                        A",
+          "Kung kaagaw ko ang lahat may pag asa bang makilala ka"
+        ] },
+        { label: "Chorus", lines: [
+          "D                    Bm",
+          "Awit na nananawagan, baka sakaling napakikinggan,",
+          "G                       A",
+          "Pag ibig na palaisipan sa kanta na lang idaraan",
+          "D                    Bm",
+          "Nag aabang sa langit, sa mga ulap sumisilip",
+          "G                     A",
+          "Sa likod ng mga tala, kahit sulyap lang darna"
+        ] },
+        { label: "Verse 2", lines: [
+          "D                       Bm",
+          "Ang swerte nga naman ni ding, lagi ka nyang kapiling",
+          "G                       A",
+          "Kung ako sa kanya niligawan na kita",
+          "D                  Bm",
+          "Mapapansin kaya sa dami ng yong ginagawa",
+          "G                        A",
+          "Kung kaagaw ko ang lahat may pag asa bang makilala ka"
+        ] },
+        { label: "Chorus", lines: [
+          "D                    Bm",
+          "Awit na nananawagan, baka sakaling napakikinggan,",
+          "G                       A",
+          "Pag ibig na palaisipan sa kanta na lang idaraan",
+          "D                    Bm",
+          "Nag aabang sa langit, sa mga ulap sumisilip",
+          "G                     A",
+          "Sa likod ng mga tala, kahit sulyap lang darna"
+        ] },
+        { label: "Verse 3", lines: [
+          "D                       Bm",
+          "Tumalon kaya ako sa bangin, para lang iyong sagipin",
+          "G                       A",
+          "Ito ang tanging paraan para mayakap ka",
+          "D                  Bm",
+          "Darating kaya......sa dami ng ginagawa",
+          "G                        A",
+          "Kung kaagaw ko sila paano na kaya?"
+        ] },
+        { label: "Chorus", lines: [
+          "D                    Bm",
+          "Awit na nananawagan, baka sakaling napakikinggan,",
+          "G                       A",
+          "Pag ibig na palaisipan sa kanta na lang idaraan",
+          "D                    Bm",
+          "Nag aabang sa langit, sa mga ulap sumisilip",
+          "G                     A",
+          "Sa likod ng mga tala, kahit sulyap lang darna",
+          "",
+          "D                    Bm",
+          "Nag aabang sa langit, sa mga ulap sumisilip",
+          "G                     A",
+          "Sa likod ng mga tala, kahit sulyap lang darna"
+        ] }
+      ]
+    },
+    {
+      number: 8,
+      title: "Hindi Na Nga",
+      artist: "This Band",
+      key: "G",
+      bpm: 66,
+      sections: [
+        { label: "Intro", lines: [
+          "G   Dsus4   Em7   Cadd9   x2"
+        ] },
+        { label: "Verse 1", lines: [
+          "       G              Dsus4",
+          "Ang lahat ay nagbabago",
+          "  Em7                 Cadd9",
+          "Ganon din ang puso ko",
+          "    G                   Dsus4",
+          "Di alam kung paano aamin",
+          "      Em7                   Cadd9 (once)",
+          "Kung dapat bang sabihin to"
+        ] },
+        { label: "Pre-Chorus", lines: [
+          "            Em7",
+          "Ngunit kailangan nang tapangan",
+          "      Dsus4",
+          "At sabihin ang nararapat",
+          "        Cadd9",
+          "Na hindi na nga",
+          "          Dsus4 (once)",
+          "Hindi na nga"
+        ] },
+        { label: "Chorus", lines: [
+          "  G               Dsus4 (once, then mute)",
+          "Alam kong mali na",
+          "                       Em7",
+          "Pero di ko kayang bumitaw",
+          "Ika'y masasaktan",
+          "          Cadd9",
+          "Dahil pangako ko'y walang iwanan",
+          "",
+          "  G               Dsus4",
+          "Alam kong huli na",
+          "                           Em7     Cadd9",
+          "Alam kong hindi na nga mahal"
+        ] },
+        { label: "Verse 2", lines: [
+          "           G",
+          "Oh ilang beses din sinubukan",
+          "   Dsus4",
+          "Pinilit ang nararamdaman",
+          "      Em7",
+          "Pero kulang",
+          "     Cadd9",
+          "May kulang"
+        ] },
+        { label: "Pre-Chorus", lines: [
+          "   G",
+          "Natatakot na malaman",
+          "   Dsus4",
+          "Natatakot na iyong huhusgahan",
+          "       Em7",
+          "Na hindi na nga",
+          "           Cadd9",
+          "Hindi na nga"
+        ] },
+        { label: "Chorus", lines: [
+          "  G               Dsus4 (once, then mute)",
+          "Alam kong mali na",
+          "                       Em7",
+          "Pero di ko kayang bumitaw",
+          "Ika'y masasaktan",
+          "          Cadd9",
+          "Dahil pangako ko'y walang iwanan",
+          "",
+          "  G               Dsus4",
+          "Alam kong huli na",
+          "                           Em7     Cadd9",
+          "Alam kong hindi na nga mahal"
+        ] },
+        { label: "Solo", lines: [
+          "G   Dsus4   Em7   Cadd9   x2"
+        ] },
+        { label: "Bridge", lines: [
+          "  G              Dsus4",
+          "Alam kong huli na",
+          "  Em7             Cadd9",
+          "Alam kong mali na",
+          "  G               Dsus4",
+          "Alam kong huli na",
+          "  Em7             Cadd9",
+          "Alam kong mali na"
+        ] },
+        { label: "Chorus", lines: [
+          "  G               Dsus4 (once, then mute)",
+          "Alam kong mali na",
+          "                       Em7",
+          "Pero di ko kayang bumitaw",
+          "Ika'y masasaktan",
+          "          Cadd9",
+          "Dahil pangako ko'y walang iwanan",
+          "",
+          "  G               Dsus4",
+          "Alam kong huli na",
+          "                           Em7        Cadd9",
+          "Alam kong hindi na nga mahal"
+        ] },
+        { label: "Outro", lines: [
+          "G   Dsus4                        Em7 Cadd9",
+          "            Hindi na nga mahal",
+          "G   Dsus4                        Em7 Cadd9",
+          "            Hindi ka na mahal",
+          "",
+          "       G               Dsus4",
+          "Ang lahat ay nagbabago",
+          "   Em7               Cadd9 (arpeggiate)",
+          "Ganon din ang puso ko"
+        ] }
+      ]
+    },
+    {
+      number: 9,
+      title: "Sabot-Sabot",
+      artist: "Phylum",
+      key: "C",
+      bpm: 99,
+      sections: [
+        { label: "Intro", lines: [
+          "C F C F C F C F"
+        ] },
+        { label: "Verse 1", lines: [
+          "C     F         Am            G",
+          "  Diba duwa-duwa ra man ning atoa",
+          "C         F                Am      G",
+          "  Nganung masakitan man ko kung magkuyog mong duha",
+          "C      F             Am       G",
+          "  Diba nagsabot nata kung mu abot na siya",
+          "F               G",
+          "  Taposon dayon ni natong relasyon na"
+        ] },
+        { label: "Instrumental", lines: [
+          "C F C F C F C F"
+        ] },
+        { label: "Verse 2", lines: [
+          "C    F         Am      G",
+          "  Og ako karon nakapangutana",
+          "C          F",
+          "  Nganong karon pa man ka",
+          "Am           G",
+          "  Na may uyab natang duha",
+          "C        F        Am       G",
+          "  Maikog na nuhon ko sa pagbiya na niya",
+          "Am(12x)                             Am-Am",
+          "  Kay gipaila-ila nako sa iyang mama"
+        ] },
+        { label: "Chorus", lines: [
+          "                     F",
+          "    Maong ikaw akong gibiya-an",
+          "       G               C",
+          "    Na hina-ot nga makalimtan",
+          "",
+          "          C(distort) Am",
+          "    Ang talagsaong kalipay",
+          "         G                   F   G",
+          "    Na kanimo ra matagamtaman"
+        ] },
+        { label: "Instrumental", lines: [
+          "C F C F C F C F"
+        ] },
+        { label: "Verse 3", lines: [
+          "C    F         Am      G",
+          "  Og ako karon nakapangutana",
+          "C          F",
+          "  Nganong karon pa man ka",
+          "Am           G",
+          "  Na may uyab natang duha",
+          "C        F        Am       G",
+          "  Maikog na nuhon ko sa pagbiya na niya",
+          "Am(12x)                             Am-Am",
+          "  Kay gipaila-ila nako sa iyang mama"
+        ] },
+        { label: "Chorus", lines: [
+          "                     F",
+          "    Maong ikaw akong gibiya-an",
+          "       G                C",
+          "    Na hina-ot nga makalimtan",
+          "          C(distort) Am",
+          "    Ang talagsaong kalipay",
+          "         G                   F   G",
+          "    Na kanimo ra matagamtaman"
+        ] },
+        { label: "Outro", lines: [
+          "F  Am   G     F",
+          " Bisag asa ko taman",
+          "F Am        Am G F",
+          " Palayo sa emong kiliran",
+          "F Am        G     F",
+          " Halos kada lugar akong ma-abtan",
+          "F Am           Am       G          F",
+          " Ikaw ra giyapon akong mahinumduman"
+        ] },
+        { label: "Chorus x2", lines: [
+          "                     F",
+          "    Maong ikaw akong gibiya-an",
+          "       G                C",
+          "    Na hina-ot nga makalimtan",
+          "          C(distort) Am",
+          "    Ang talagsaong kalipay",
+          "         G                   F   G",
+          "    Na kanimo ra matagamtaman"
+        ] },
+        { label: "Outro", lines: [
+          "Em Am F G",
+          "",
+          "Em Am Am G F"
+        ] }
+      ]
+    },
+    {
+      number: 10,
+      title: "Bulong",
+      artist: "December Avenue",
+      key: "F",
+      bpm: 70,
+      sections: [
+        { label: "Intro", lines: [
+          "F Am7 G"
+        ] },
+        { label: "Verse 1", lines: [
+          "      F            Am7    G",
+          "Hindi masabi ang nararamdaman",
+          "       F                Am7       G",
+          "Di makalapit, sadyang nanginginig nalang",
+          "      F                         Am7 G",
+          "Mga kamay na sabik sa piling mo",
+          "                   F                          Am7      G",
+          "Ang iyong matang walang mintis sa pagtigil ng aking mundo"
+        ] },
+        { label: "Chorus", lines: [
+          "       F                    Am7 G",
+          "Ako'y alipin ng pag-ibig mo",
+          "         F                          Am7 G",
+          "Handang ibigin ang 'isang tulad mo",
+          "             F                          Am7    G",
+          "Hangga't ang puso mo'y sa akin lang hindi ka na malilinlang",
+          " F                        Am7          G",
+          "Ikaw ang ilaw sa dilim at ang liwanag ng mga bituin"
+        ] },
+        { label: "Verse 2", lines: [
+          "        F                 Am7          G",
+          "Hindi mapakali, hanggang tingin nalang",
+          "               F                     Am7      G",
+          "Bumubulong sa iyong tabi, sadyang walang makapantay",
+          "        F                     Am7    G",
+          "Sa kagandahang inuukit mo sa isip ko"
+        ] },
+        { label: "Chorus", lines: [
+          "       F                    Am7 G",
+          "Ako'y alipin ng pag-ibig mo",
+          "         F                         Am7 G",
+          "Handang ibigin ang 'isang tulad mo",
+          "             F                        Am7      G",
+          "Hangga't ang puso mo'y sa akin lang hindi ka na malilinlang",
+          " F                        Am7        G",
+          "Ikaw ang ilaw sa dilim at ang liwanag ng mga bituin"
+        ] },
+        { label: "Bridge", lines: [
+          "F Am7 G"
+        ] },
+        { label: "Chorus", lines: [
+          "       F                    Am7 G",
+          "Ako'y alipin ng pag-ibig mo",
+          "         F                         Am7 G",
+          "Handang ibigin ang 'isang tulad mo",
+          "             F                        Am7      G",
+          "Hangga't ang puso mo'y sa akin lang hindi ka na malilinlang",
+          " F                        Am7        G",
+          "Ikaw ang ilaw sa dilim at ang liwanag ng mga bituin"
+        ] },
+        { label: "Outro", lines: [
+          "F Am7 G"
+        ] }
+      ]
+    },
+    {
+      number: 11,
       title: "Bulong",
       artist: "Kitchie Nadal",
       key: "D",
@@ -145,7 +1147,7 @@
       ]
     },
     {
-      number: 2,
+      number: 12,
       title: "Same Ground",
       artist: "Kitchie Nadal",
       key: "A",
@@ -248,73 +1250,7 @@
       ]
     },
     {
-      number: 3,
-      title: "Bulong",
-      artist: "December Avenue",
-      key: "F",
-      bpm: 70,
-      sections: [
-        { label: "Intro", lines: [
-          "F Am7 G"
-        ] },
-        { label: "Verse 1", lines: [
-          "      F            Am7    G",
-          "Hindi masabi ang nararamdaman",
-          "       F                Am7       G",
-          "Di makalapit, sadyang nanginginig nalang",
-          "      F                         Am7 G",
-          "Mga kamay na sabik sa piling mo",
-          "                   F                          Am7      G",
-          "Ang iyong matang walang mintis sa pagtigil ng aking mundo"
-        ] },
-        { label: "Chorus", lines: [
-          "       F                    Am7 G",
-          "Ako'y alipin ng pag-ibig mo",
-          "         F                          Am7 G",
-          "Handang ibigin ang 'isang tulad mo",
-          "             F                          Am7    G",
-          "Hangga't ang puso mo'y sa akin lang hindi ka na malilinlang",
-          " F                        Am7          G",
-          "Ikaw ang ilaw sa dilim at ang liwanag ng mga bituin"
-        ] },
-        { label: "Verse 2", lines: [
-          "        F                 Am7          G",
-          "Hindi mapakali, hanggang tingin nalang",
-          "               F                     Am7      G",
-          "Bumubulong sa iyong tabi, sadyang walang makapantay",
-          "        F                     Am7    G",
-          "Sa kagandahang inuukit mo sa isip ko"
-        ] },
-        { label: "Chorus", lines: [
-          "       F                    Am7 G",
-          "Ako'y alipin ng pag-ibig mo",
-          "         F                         Am7 G",
-          "Handang ibigin ang 'isang tulad mo",
-          "             F                        Am7      G",
-          "Hangga't ang puso mo'y sa akin lang hindi ka na malilinlang",
-          " F                        Am7        G",
-          "Ikaw ang ilaw sa dilim at ang liwanag ng mga bituin"
-        ] },
-        { label: "Bridge", lines: [
-          "F Am7 G"
-        ] },
-        { label: "Chorus", lines: [
-          "       F                    Am7 G",
-          "Ako'y alipin ng pag-ibig mo",
-          "         F                         Am7 G",
-          "Handang ibigin ang 'isang tulad mo",
-          "             F                        Am7      G",
-          "Hangga't ang puso mo'y sa akin lang hindi ka na malilinlang",
-          " F                        Am7        G",
-          "Ikaw ang ilaw sa dilim at ang liwanag ng mga bituin"
-        ] },
-        { label: "Outro", lines: [
-          "F Am7 G"
-        ] }
-      ]
-    },
-    {
-      number: 4,
+      number: 13,
       title: "Huling Sandali",
       artist: "December Avenue",
       key: "E",
@@ -417,7 +1353,121 @@
       ]
     },
     {
-      number: 5,
+      number: 14,
+      title: "Saksi Ang Langit",
+      artist: "December Avenue",
+      key: "G",
+      bpm: 85,
+      sections: [
+        { label: "Intro", lines: [
+          "Dmaj7 Gmaj7",
+          "Dmaj7 Gmaj7"
+        ] },
+        { label: "Verse 1", lines: [
+          "            D",
+          "Nangangarap lang",
+          "                  Gmaj7",
+          "Habang ika'y pinagmamasdan",
+          "                D",
+          "Nagbibilang ng iyong hakbang",
+          "                     Gmaj7",
+          "Hanggang ika'y aking mahagkan"
+        ] },
+        { label: "Pre-Chorus", lines: [
+          "                   Em",
+          "'Di sasayangin ang oras sa pag-ibig mo",
+          "                G",
+          "Mas pipiliin ko",
+          "                                    D",
+          "Ibigay lahat pati itong aking mundo"
+        ] },
+        { label: "Chorus", lines: [
+          "                     Gmaj7",
+          "Halika't sumayaw sa ilalim ng bituin",
+          "                       D/F#",
+          "Habang ako'y nakatingin sa'yo",
+          "                      Em       G",
+          "Wala ng 'kong ibang mahihiling",
+          "                          D G",
+          "Saksi ang langit sa'tin"
+        ] },
+        { label: "Verse 2", lines: [
+          "               D",
+          "'Wag kang magtaka",
+          "                       G",
+          "Kung bakit tayo pinag-isa",
+          "                D",
+          "'Wag kanang kabahan",
+          "                G",
+          "Ito'y hindi panaginip lang"
+        ] },
+        { label: "Pre-Chorus", lines: [
+          "                  Em",
+          "'Di gumagalaw ang oras sa paligid ko",
+          "                   G",
+          "Pati itong mundo'y",
+          "                                    D",
+          "Tumitigil habang ako'y nasa tabi mo"
+        ] },
+        { label: "Chorus", lines: [
+          "                     Gmaj7",
+          "Halika't sumayaw sa ilalim ng bituin",
+          "                       D/F#",
+          "Habang ako'y nakatingin sa'yo",
+          "                      Em       G",
+          "Wala ng 'kong ibang mahihiling",
+          "Saksi ang langit sa'tin"
+        ] },
+        { label: "Refrain", lines: [
+          "D              G",
+          "  Oh-oh, oh-oh-oh",
+          "                Em",
+          "Oh-oh, oh-oh-oh",
+          "                G",
+          "Oh-oh, oh-oh-oh",
+          "                D",
+          "Oh-oh, oh-oh-oh",
+          "Saksi ang langit",
+          "Saksi ang langit sa'tin",
+          "G",
+          "  Saksi ang langit",
+          "Saksi ang langit sa'tin",
+          "Em",
+          "   Saksi ang langit",
+          "Saksi ang langit sa'tin",
+          "G",
+          "    Saksi ang langit"
+        ] },
+        { label: "Pre-Chorus", lines: [
+          "                  Em",
+          "'Di gumagalaw ang oras sa paligid ko",
+          "                   G",
+          "Pati itong mundo'y",
+          "                                    D",
+          "Tumitigil habang ako'y nasa tabi mo"
+        ] },
+        { label: "Chorus", lines: [
+          "                     Gmaj7",
+          "Halika't sumayaw sa ilalim ng bituin",
+          "                        D/F#",
+          "Habang ako'y nakatingin sa'yo",
+          "                      Em        G",
+          "Wala ng 'kong ibang mahihiling",
+          "                        D",
+          "Saksi ang langit sa'tin (Saksi ang langit)",
+          "                     Gmaj7",
+          "Halika't sumayaw sa ilalim ng bituin",
+          "                      D/F#",
+          "Habang ako'y nakadikit sa'yo",
+          "                     Em       G",
+          "Wala na'kong ibang mahihiling",
+          "                 D",
+          "Saksi ang langit"
+        ] }
+      ]
+    },
+    {
+      number: 15,
       title: "Tatsulok",
       artist: "Bamboo",
       key: "B",
@@ -543,624 +1593,7 @@
       ]
     },
     {
-      number: 6,
-      title: "This Love",
-      artist: "Maroon 5",
-      key: "G",
-      bpm: 95,
-      sections: [
-        { label: "Intro", lines: [
-          "G       Cm   Fm       G7/D"
-        ] },
-        { label: "Verse 1", lines: [
-          "G                       Cm",
-          "I was so high I did not recognize",
-          "                       Fm",
-          "The fire burning in her eyes",
-          "               G7/D",
-          "The chaos that controlled my mind",
-          "G                            Cm",
-          "whispered goodbye as she got on a plane",
-          "            Fm",
-          "Never to return again",
-          "                 G7/D",
-          "But always in my heart"
-        ] },
-        { label: "Chorus", lines: [
-          " Cm Fm        Bb        Eb",
-          "This love has taken its toll on me",
-          " Cm          Fm      Bb           Eb",
-          "She said Goodbye too many times before",
-          "",
-          "    Cm Fm        Bb          Eb",
-          "And her heart is breaking in front of me",
-          " Cm       F            Ab              G",
-          "I have no choice cause I won't say goodbye anymore"
-        ] },
-        { label: "Interlude", lines: [
-          "G Cm     Fm   G7/D"
-        ] },
-        { label: "Verse 2", lines: [
-          "G                           Cm",
-          "I tried my best to feed her appetite",
-          "                 Fm",
-          "Keep her coming every night",
-          "                    G7/D",
-          "So hard to keep her satisfied",
-          "G                              Cm",
-          "Kept playing love like it was just a game",
-          "              Fm",
-          "Pretending to feel the same",
-          "                     G7/D",
-          "Then turn around and leave again (oh!)"
-        ] },
-        { label: "Chorus", lines: [
-          " Cm Fm        Bb         Eb",
-          "This love has taken its toll on me",
-          " Cm          Fm      Bb           Eb",
-          "She said Goodbye too many times before",
-          "    Cm Fm        Bb          Eb",
-          "And her heart is breaking in front of me",
-          " Cm       F             Ab             G",
-          "I have no choice cause I won't say goodbye anymore"
-        ] },
-        { label: "Interlude", lines: [
-          "G   Cm   Fm   G7/D"
-        ] },
-        { label: "Bridge", lines: [
-          "Fm",
-          "I'll fix these broken things",
-          "Ebmaj7",
-          "Repair your broken wings",
-          "G7                          Cm",
-          "And make sure everything's alright (it's alright)",
-          "Fm",
-          "My pressure on her hips",
-          "Ebmaj7",
-          "Sinking my fingertips",
-          "",
-          "G",
-          "Into every inch of you",
-          "G7",
-          "Cause I know that's what you want me to do"
-        ] },
-        { label: "Chorus", lines: [
-          " Cm Fm         Bb        Eb",
-          "This love has taken its toll on me",
-          " Cm          Fm      Bb           Eb",
-          "She said Goodbye too many times before",
-          "    Cm Fm         Bb         Eb",
-          "And her heart is breaking in front of me",
-          " Cm       F             Ab             G",
-          "I have no choice cause I won't say goodbye anymore"
-        ] },
-        { label: "Chorus", lines: [
-          " Cm Fm         Bb        Eb",
-          "This love has taken its toll on me",
-          " Cm          Fm      Bb           Eb",
-          "She said Goodbye too many times before",
-          "    Cm Fm         Bb         Eb",
-          "And my heart is breaking in front of me",
-          "Cm           F       Ab            G",
-          "She said Goodbye too many times before"
-        ] },
-        { label: "Chorus", lines: [
-          " Cm Fm         Bb        Eb",
-          "This love has taken its toll on me",
-          " Cm          Fm      Bb           Eb",
-          "She said Goodbye too many times before",
-          "    Cm Fm         Bb         Eb",
-          "And her heart is breaking in front of me",
-          " Cm       F             Ab             G",
-          "I have no choice cause I won't say goodbye anymore"
-        ] }
-      ]
-    },
-    {
-      number: 7,
-      title: "Sabot-Sabot",
-      artist: "Phylum",
-      key: "C",
-      bpm: 99,
-      sections: [
-        { label: "Intro", lines: [
-          "C F C F C F C F"
-        ] },
-        { label: "Verse 1", lines: [
-          "C     F         Am            G",
-          "  Diba duwa-duwa ra man ning atoa",
-          "C         F                Am      G",
-          "  Nganung masakitan man ko kung magkuyog mong duha",
-          "C      F             Am       G",
-          "  Diba nagsabot nata kung mu abot na siya",
-          "F               G",
-          "  Taposon dayon ni natong relasyon na"
-        ] },
-        { label: "Instrumental", lines: [
-          "C F C F C F C F"
-        ] },
-        { label: "Verse 2", lines: [
-          "C    F         Am      G",
-          "  Og ako karon nakapangutana",
-          "C          F",
-          "  Nganong karon pa man ka",
-          "Am           G",
-          "  Na may uyab natang duha",
-          "C        F        Am       G",
-          "  Maikog na nuhon ko sa pagbiya na niya",
-          "Am(12x)                             Am-Am",
-          "  Kay gipaila-ila nako sa iyang mama"
-        ] },
-        { label: "Chorus", lines: [
-          "                     F",
-          "    Maong ikaw akong gibiya-an",
-          "       G               C",
-          "    Na hina-ot nga makalimtan",
-          "",
-          "          C(distort) Am",
-          "    Ang talagsaong kalipay",
-          "         G                   F   G",
-          "    Na kanimo ra matagamtaman"
-        ] },
-        { label: "Instrumental", lines: [
-          "C F C F C F C F"
-        ] },
-        { label: "Verse 3", lines: [
-          "C    F         Am      G",
-          "  Og ako karon nakapangutana",
-          "C          F",
-          "  Nganong karon pa man ka",
-          "Am           G",
-          "  Na may uyab natang duha",
-          "C        F        Am       G",
-          "  Maikog na nuhon ko sa pagbiya na niya",
-          "Am(12x)                             Am-Am",
-          "  Kay gipaila-ila nako sa iyang mama"
-        ] },
-        { label: "Chorus", lines: [
-          "                     F",
-          "    Maong ikaw akong gibiya-an",
-          "       G                C",
-          "    Na hina-ot nga makalimtan",
-          "          C(distort) Am",
-          "    Ang talagsaong kalipay",
-          "         G                   F   G",
-          "    Na kanimo ra matagamtaman"
-        ] },
-        { label: "Outro", lines: [
-          "F  Am   G     F",
-          " Bisag asa ko taman",
-          "F Am        Am G F",
-          " Palayo sa emong kiliran",
-          "F Am        G     F",
-          " Halos kada lugar akong ma-abtan",
-          "F Am           Am       G          F",
-          " Ikaw ra giyapon akong mahinumduman"
-        ] },
-        { label: "Chorus x2", lines: [
-          "                     F",
-          "    Maong ikaw akong gibiya-an",
-          "       G                C",
-          "    Na hina-ot nga makalimtan",
-          "          C(distort) Am",
-          "    Ang talagsaong kalipay",
-          "         G                   F   G",
-          "    Na kanimo ra matagamtaman"
-        ] },
-        { label: "Outro", lines: [
-          "Em Am F G",
-          "",
-          "Em Am Am G F"
-        ] }
-      ]
-    },
-    {
-      number: 8,
-      title: "Hindi Na Nga",
-      artist: "This Band",
-      key: "G",
-      bpm: 66,
-      sections: [
-        { label: "Intro", lines: [
-          "G   Dsus4   Em7   Cadd9   x2"
-        ] },
-        { label: "Verse 1", lines: [
-          "       G              Dsus4",
-          "Ang lahat ay nagbabago",
-          "  Em7                 Cadd9",
-          "Ganon din ang puso ko",
-          "    G                   Dsus4",
-          "Di alam kung paano aamin",
-          "      Em7                   Cadd9 (once)",
-          "Kung dapat bang sabihin to"
-        ] },
-        { label: "Pre-Chorus", lines: [
-          "            Em7",
-          "Ngunit kailangan nang tapangan",
-          "      Dsus4",
-          "At sabihin ang nararapat",
-          "        Cadd9",
-          "Na hindi na nga",
-          "          Dsus4 (once)",
-          "Hindi na nga"
-        ] },
-        { label: "Chorus", lines: [
-          "  G               Dsus4 (once, then mute)",
-          "Alam kong mali na",
-          "                       Em7",
-          "Pero di ko kayang bumitaw",
-          "Ika'y masasaktan",
-          "          Cadd9",
-          "Dahil pangako ko'y walang iwanan",
-          "",
-          "  G               Dsus4",
-          "Alam kong huli na",
-          "                           Em7     Cadd9",
-          "Alam kong hindi na nga mahal"
-        ] },
-        { label: "Verse 2", lines: [
-          "           G",
-          "Oh ilang beses din sinubukan",
-          "   Dsus4",
-          "Pinilit ang nararamdaman",
-          "      Em7",
-          "Pero kulang",
-          "     Cadd9",
-          "May kulang"
-        ] },
-        { label: "Pre-Chorus", lines: [
-          "   G",
-          "Natatakot na malaman",
-          "   Dsus4",
-          "Natatakot na iyong huhusgahan",
-          "       Em7",
-          "Na hindi na nga",
-          "           Cadd9",
-          "Hindi na nga"
-        ] },
-        { label: "Chorus", lines: [
-          "  G               Dsus4 (once, then mute)",
-          "Alam kong mali na",
-          "                       Em7",
-          "Pero di ko kayang bumitaw",
-          "Ika'y masasaktan",
-          "          Cadd9",
-          "Dahil pangako ko'y walang iwanan",
-          "",
-          "  G               Dsus4",
-          "Alam kong huli na",
-          "                           Em7     Cadd9",
-          "Alam kong hindi na nga mahal"
-        ] },
-        { label: "Solo", lines: [
-          "G   Dsus4   Em7   Cadd9   x2"
-        ] },
-        { label: "Bridge", lines: [
-          "  G              Dsus4",
-          "Alam kong huli na",
-          "  Em7             Cadd9",
-          "Alam kong mali na",
-          "  G               Dsus4",
-          "Alam kong huli na",
-          "  Em7             Cadd9",
-          "Alam kong mali na"
-        ] },
-        { label: "Chorus", lines: [
-          "  G               Dsus4 (once, then mute)",
-          "Alam kong mali na",
-          "                       Em7",
-          "Pero di ko kayang bumitaw",
-          "Ika'y masasaktan",
-          "          Cadd9",
-          "Dahil pangako ko'y walang iwanan",
-          "",
-          "  G               Dsus4",
-          "Alam kong huli na",
-          "                           Em7        Cadd9",
-          "Alam kong hindi na nga mahal"
-        ] },
-        { label: "Outro", lines: [
-          "G   Dsus4                        Em7 Cadd9",
-          "            Hindi na nga mahal",
-          "G   Dsus4                        Em7 Cadd9",
-          "            Hindi ka na mahal",
-          "",
-          "       G               Dsus4",
-          "Ang lahat ay nagbabago",
-          "   Em7               Cadd9 (arpeggiate)",
-          "Ganon din ang puso ko"
-        ] }
-      ]
-    },
-    {
-      number: 9,
-      title: "Narda",
-      artist: "Kamikazee",
-      key: "D",
-      bpm: 120,
-      sections: [
-        { label: "Intro", lines: [
-          "D       Bm     G      A",
-          "D       Bm     G      A"
-        ] },
-        { label: "Verse 1", lines: [
-          "D                       Bm",
-          "Tila ibon kung lumipad, Sumabay sa hangin ako'y napatingin",
-          "G                       A",
-          "Sa dalagang nababalot ng hiwaga.",
-          "D                  Bm",
-          "Mapapansin kaya sa dami ng yong ginagawa",
-          "G                        A",
-          "Kung kaagaw ko ang lahat may pag asa bang makilala ka"
-        ] },
-        { label: "Chorus", lines: [
-          "D                    Bm",
-          "Awit na nananawagan, baka sakaling napakikinggan,",
-          "G                       A",
-          "Pag ibig na palaisipan sa kanta na lang idaraan",
-          "D                    Bm",
-          "Nag aabang sa langit, sa mga ulap sumisilip",
-          "G                     A",
-          "Sa likod ng mga tala, kahit sulyap lang darna"
-        ] },
-        { label: "Verse 2", lines: [
-          "D                       Bm",
-          "Ang swerte nga naman ni ding, lagi ka nyang kapiling",
-          "G                       A",
-          "Kung ako sa kanya niligawan na kita",
-          "D                  Bm",
-          "Mapapansin kaya sa dami ng yong ginagawa",
-          "G                        A",
-          "Kung kaagaw ko ang lahat may pag asa bang makilala ka"
-        ] },
-        { label: "Chorus", lines: [
-          "D                    Bm",
-          "Awit na nananawagan, baka sakaling napakikinggan,",
-          "G                       A",
-          "Pag ibig na palaisipan sa kanta na lang idaraan",
-          "D                    Bm",
-          "Nag aabang sa langit, sa mga ulap sumisilip",
-          "G                     A",
-          "Sa likod ng mga tala, kahit sulyap lang darna"
-        ] },
-        { label: "Verse 3", lines: [
-          "D                       Bm",
-          "Tumalon kaya ako sa bangin, para lang iyong sagipin",
-          "G                       A",
-          "Ito ang tanging paraan para mayakap ka",
-          "D                  Bm",
-          "Darating kaya......sa dami ng ginagawa",
-          "G                        A",
-          "Kung kaagaw ko sila paano na kaya?"
-        ] },
-        { label: "Chorus", lines: [
-          "D                    Bm",
-          "Awit na nananawagan, baka sakaling napakikinggan,",
-          "G                       A",
-          "Pag ibig na palaisipan sa kanta na lang idaraan",
-          "D                    Bm",
-          "Nag aabang sa langit, sa mga ulap sumisilip",
-          "G                     A",
-          "Sa likod ng mga tala, kahit sulyap lang darna",
-          "",
-          "D                    Bm",
-          "Nag aabang sa langit, sa mga ulap sumisilip",
-          "G                     A",
-          "Sa likod ng mga tala, kahit sulyap lang darna"
-        ] }
-      ]
-    },
-    {
-      number: 10,
-      title: "Saksi Ang Langit",
-      artist: "December Avenue",
-      key: "G",
-      bpm: 85,
-      sections: [
-        { label: "Intro", lines: [
-          "Dmaj7 Gmaj7",
-          "Dmaj7 Gmaj7"
-        ] },
-        { label: "Verse 1", lines: [
-          "            D",
-          "Nangangarap lang",
-          "                  Gmaj7",
-          "Habang ika'y pinagmamasdan",
-          "                D",
-          "Nagbibilang ng iyong hakbang",
-          "                     Gmaj7",
-          "Hanggang ika'y aking mahagkan"
-        ] },
-        { label: "Pre-Chorus", lines: [
-          "                   Em",
-          "'Di sasayangin ang oras sa pag-ibig mo",
-          "                G",
-          "Mas pipiliin ko",
-          "                                    D",
-          "Ibigay lahat pati itong aking mundo"
-        ] },
-        { label: "Chorus", lines: [
-          "                     Gmaj7",
-          "Halika't sumayaw sa ilalim ng bituin",
-          "                       D/F#",
-          "Habang ako'y nakatingin sa'yo",
-          "                      Em       G",
-          "Wala ng 'kong ibang mahihiling",
-          "                          D G",
-          "Saksi ang langit sa'tin"
-        ] },
-        { label: "Verse 2", lines: [
-          "               D",
-          "'Wag kang magtaka",
-          "                       G",
-          "Kung bakit tayo pinag-isa",
-          "                D",
-          "'Wag kanang kabahan",
-          "                G",
-          "Ito'y hindi panaginip lang"
-        ] },
-        { label: "Pre-Chorus", lines: [
-          "                  Em",
-          "'Di gumagalaw ang oras sa paligid ko",
-          "                   G",
-          "Pati itong mundo'y",
-          "                                    D",
-          "Tumitigil habang ako'y nasa tabi mo"
-        ] },
-        { label: "Chorus", lines: [
-          "                     Gmaj7",
-          "Halika't sumayaw sa ilalim ng bituin",
-          "                       D/F#",
-          "Habang ako'y nakatingin sa'yo",
-          "                      Em       G",
-          "Wala ng 'kong ibang mahihiling",
-          "Saksi ang langit sa'tin"
-        ] },
-        { label: "Refrain", lines: [
-          "D              G",
-          "  Oh-oh, oh-oh-oh",
-          "                Em",
-          "Oh-oh, oh-oh-oh",
-          "                G",
-          "Oh-oh, oh-oh-oh",
-          "                D",
-          "Oh-oh, oh-oh-oh",
-          "Saksi ang langit",
-          "Saksi ang langit sa'tin",
-          "G",
-          "  Saksi ang langit",
-          "Saksi ang langit sa'tin",
-          "Em",
-          "   Saksi ang langit",
-          "Saksi ang langit sa'tin",
-          "G",
-          "    Saksi ang langit"
-        ] },
-        { label: "Pre-Chorus", lines: [
-          "                  Em",
-          "'Di gumagalaw ang oras sa paligid ko",
-          "                   G",
-          "Pati itong mundo'y",
-          "                                    D",
-          "Tumitigil habang ako'y nasa tabi mo"
-        ] },
-        { label: "Chorus", lines: [
-          "                     Gmaj7",
-          "Halika't sumayaw sa ilalim ng bituin",
-          "                        D/F#",
-          "Habang ako'y nakatingin sa'yo",
-          "                      Em        G",
-          "Wala ng 'kong ibang mahihiling",
-          "                        D",
-          "Saksi ang langit sa'tin (Saksi ang langit)",
-          "                     Gmaj7",
-          "Halika't sumayaw sa ilalim ng bituin",
-          "                      D/F#",
-          "Habang ako'y nakadikit sa'yo",
-          "                     Em       G",
-          "Wala na'kong ibang mahihiling",
-          "                 D",
-          "Saksi ang langit"
-        ] }
-      ]
-    },
-    {
-      number: 11,
-      title: "Pangako",
-      artist: "Cueshé",
-      key: "F",
-      bpm: 120,
-      sections: [
-        { label: "Intro", lines: [
-          "F (x5)"
-        ] },
-        { label: "Verse 1", lines: [
-          "F",
-          "  Kislap ng yong mga mata",
-          "Ako'y iyong nadadala",
-          "                          Bb",
-          "Parang anghel ang yong ganda",
-          "                F",
-          "Di maiwasan hahanap-hanapin ka",
-          " F",
-          "O kay tamis ng yong mga ngiti",
-          "Ako'y iyong naaakit",
-          "                      Bb",
-          "Tulad ng rosas nakakaaliw",
-          "                            C",
-          "Di mapigilang mabighani sa iyo"
-        ] },
-        { label: "Chorus 1", lines: [
-          "   F",
-          "At hindi ko hahayaan na",
-          " Am",
-          "ika'y mawawala",
-          "     Bb",
-          "Pipilitin ko ang puso",
-          "        F",
-          "mong mahulog sa akin"
-        ] },
-        { label: "Verse 2", lines: [
-          "F",
-          "    Pagsapit ng gabi",
-          "Sa isip ay ikaw pa rin",
-          "                          Bb",
-          "Mga larawan mo sa aking tabi",
-          "                C",
-          "Na laging nakamasid"
-        ] },
-        { label: "Chorus 1", lines: [
-          "   F",
-          "At hindi ko hahayaan na",
-          " Am",
-          "ika'y mawawala",
-          "     Bb",
-          "Pipilitin ko ang puso",
-          "        F",
-          "mong mahulog sa akin"
-        ] },
-        { label: "Chorus 2", lines: [
-          "   F",
-          "At hinding-hindi ka",
-          "                 Am",
-          "magaalinlangan pangako ito",
-          "     Bb                    F",
-          "Gagawin ang lahat para sa iyo"
-        ] },
-        { label: "Bridge", lines: [
-          "C            Bb Bb Dm",
-          "  Oh woh woh hoh",
-          "C             Bb C",
-          "  Oh woh wohh wohh"
-        ] },
-        { label: "Guitar Solo", lines: [
-          "F  Am  Bb  F"
-        ] },
-        { label: "Chorus 1", lines: [
-          "   F",
-          "At hindi ko hahayaan na",
-          " Am",
-          "ika'y mawawala",
-          "     Bb",
-          "Pipilitin ko ang puso",
-          "        F",
-          "mong mahulog sa akin"
-        ] },
-        { label: "Chorus 2", lines: [
-          "   F",
-          "At hinding-hindi ka",
-          "                 Am",
-          "magaalinlangan pangako ito",
-          "     Bb                    F",
-          "Gagawin ang lahat para sa iyo"
-        ] },
-        { label: "Outro", lines: [
-          "F  F (hold)"
-        ] }
-      ]
-    },
-    {
-      number: 12,
+      number: 16,
       title: "Ang Huling El Bimbo",
       artist: "Eraserheads",
       key: "G",
@@ -1300,332 +1733,6 @@
           "La la",
           "         G",
           "La la la la"
-        ] }
-      ]
-    },
-    {
-      number: 13,
-      title: "Ulan",
-      artist: "Cueshé",
-      subtitle: "Half Empty, Half Full",
-      key: "B",
-      bpm: 72,
-      bpmApprox: true,
-      sections: [
-        { label: "Intro", lines: [
-          "B D# x2",
-          "B D# G#m E"
-        ] },
-        { label: "Verse 1", lines: [
-          "B                F#",
-          "Lagi na lang umuulan",
-          "B                   F#",
-          "Parang walang katapusan",
-          "          C#        E",
-          "Tulad ng paghihirap ko ngayon",
-          "      B          D#",
-          "Parang walang humpay",
-          "        G#m",
-          "Sa kabila ng lahat",
-          "          G",
-          "Ng aking pagsisikap",
-          "      B",
-          "Na limutin ka",
-          "   F#             B D# G#m E",
-          "Ay di pa rin magawa"
-        ] },
-        { label: "Verse 2", lines: [
-          "B                  F#",
-          "Hindi naman ako tanga",
-          "B                  F#",
-          "Alam ko na wala ka na",
-          "       C#            E",
-          "Pero mahirap lang na tanggapin",
-          "   B         D#",
-          "Di na kita kapiling",
-          "       G#m",
-          "Iniwan mo akong",
-          "     G",
-          "Nag iisa",
-          "      B",
-          "Sa gitna ng dilim",
-          "     F#                 B     F#   E",
-          "At basang basa pa sa ulan"
-        ] },
-        { label: "Chorus", lines: [
-          "B                D#",
-          "Pero wag mag alala",
-          "       G#m          C#7",
-          "Di na kita gagambalain",
-          "           C#m",
-          "Alam ko namang ngayong",
-          "      E                 B  F#  E",
-          "May kapiling ka ng iba",
-          "B                       D#",
-          "Tanging hiling ko sa 'yo",
-          "     G#m        C#7",
-          "Na tuwing umuulan",
-          "            C#m",
-          "Maalala mo sanang may",
-          "   E             B D# G#m C# C#m F# B (Ad Lib)",
-          "Nagmamahal sa 'yo, oh, oh, oh....."
-        ] },
-        { label: "Verse 3", lines: [
-          "B                 F#",
-          "Lagi na lang umuulan",
-          "B                  F#",
-          "Parang walang katapusan",
-          "           C#           E",
-          "Tulad ng paghihirap ko ngayon",
-          "      B         D#",
-          "Parang walang humpay",
-          "       G#m",
-          "Iniwan mo akong",
-          "    G",
-          "Nag iisa",
-          "      B",
-          "Sa gitna ng dilim",
-          "     F#                   B  F#    E",
-          "At basang basa pa sa ulan"
-        ] },
-        { label: "Chorus", lines: [
-          "B                D#",
-          "Pero wag mag alala",
-          "       G#m         C#",
-          "Di na kita gagambalain",
-          "           C#m",
-          "Alam ko namang ngayong",
-          "      E               B  F#   E",
-          "May kapiling ka ng iba",
-          "B                     D#",
-          "Tanging hiling ko sa 'yo",
-          "     G#m        C#",
-          "Na tuwing umuulan",
-          "            C#m",
-          "Maalala mo sanang may",
-          "   E            B   F#   E",
-          "Nagmamahal sa 'yo ako"
-        ] },
-        { label: "Outro", lines: [
-          "B     F#",
-          "La la la la la",
-          "G#m   F#",
-          "La la la la la",
-          "A     E     B",
-          "La la la la la...."
-        ] }
-      ]
-    },
-    {
-      number: 14,
-      title: "Sine Sine",
-      artist: "Missing Filemon",
-      key: "A",
-      bpm: 90,
-      sections: [
-        { label: "Intro", lines: [
-          "D B E       E7"
-        ] },
-        { label: "Verse 1", lines: [
-          "A       C#7            F#m",
-          "Sinesine wala tay laing lingaw",
-          "  A7",
-          "Kandila luyo sa habol",
-          "D                Dm",
-          "Katawang binayran og pisong kinawat",
-          "A              E",
-          "Sa gubaong pitakang lola",
-          "A        C#7",
-          "Anino sa mga artistang papel",
-          "  A7",
-          "Gihinganlan tag si Pedro'g",
-          "D                 Dm",
-          "Sabel Sila'ng bida niadtong estorya",
-          "A                E",
-          "Sa gugma nga way katumanan"
-        ] },
-        { label: "Chorus", lines: [
-          "A          C#7        F#m",
-          "Sine..sinesine sa bata pa",
-          "A7                 D",
-          "Di na unta matapos pa",
-          "  C#m    F#m    Bm         E",
-          "Bisan pa man sa pagdagan sa panahon",
-          "A          C#7        F#m",
-          "Lantawon mga eksena nga molabay",
-          "A7                 D",
-          "Tanang tawo makasakay",
-          "",
-          "C#m   F#m    Bm         E",
-          "Saksihan ta ang pagdagan sa panahon",
-          "",
-          "D B7 E",
-          "panahon.."
-        ] },
-        { label: "Verse 2", lines: [
-          "A       C#7            F#m",
-          "Sigesigeha lang imong paglakaw",
-          "  A7",
-          "Ay'g kahadlok may kahayag",
-          "D                Dm",
-          "Modan-ag sa dalang mangitngit",
-          "  A                      E",
-          "Lakip na ang langit daw lapad nga adlaw",
-          "A       C#7            F#m",
-          "Ang kinabuhi sugilanong hiwi",
-          "  A7",
-          "Kalipay kasakit ug kalami",
-          "D                Dm",
-          "Silang bida niining salida",
-          "A                      E",
-          "Sa gugma nga way katumanan"
-        ] },
-        { label: "Chorus", lines: [
-          "A          C#7         F#m",
-          "Sine..sinesine sa bata pa",
-          "A7                   D",
-          "Di na unta matapos pa",
-          "  C#m    F#m      Bm       E",
-          "Bisan pa man sa pagdagan sa panahon",
-          "A          C#7         F#m",
-          "Lantawon mga eksena nga molabay",
-          "A7                   D",
-          "Tanang tawo makasakay",
-          "C#m   F#m      Bm        E",
-          "Saksihan ta ang pagdagan sa panahon",
-          "",
-          "D B7 E",
-          "panahon.."
-        ] },
-        { label: "Instrumental", lines: [
-          "A      C#7   F#m    A7     D     Dm     A      E"
-        ] },
-        { label: "Chorus", lines: [
-          "A         C#7         F#m",
-          "Sine..sinesine sa bata pa",
-          "A7                 D",
-          "Di na unta matapos pa",
-          " C#m   | F#m   |  Bm         E",
-          "Bisan pa man sa pagdagan sa panahon",
-          "A         C#7         F#m",
-          "Lantawon mga eksena nga molabay",
-          "A7                 D",
-          "Tanang tawo makasakay",
-          "C#m   | F#m   |  Bm         E",
-          "Saksihan ta ang pagdagan sa panahon"
-        ] }
-      ]
-    },
-    {
-      number: 15,
-      title: "Nobela",
-      artist: "Join the Club",
-      key: "E",
-      bpm: 80,
-      sections: [
-        { label: "Intro", lines: [
-          "D# Gm        D# Gm G#"
-        ] },
-        { label: "Verse", lines: [
-          "G#          D#",
-          "ngumiti kahit na napipilitan",
-          "",
-          "G#                D#",
-          "kahit pa sinasadya",
-          "G#             D#",
-          "mo akong masaktan paminsan-minsan",
-          "G#                 A# (break)",
-          "bawat sandali na lang",
-          "G#              D#",
-          "tulad mo ba akong nahihirapan",
-          "G#             D#",
-          "lalo't naiisip ka",
-          "G#             D#",
-          "di ko na kaya pang makalimutan",
-          "C#                 A#",
-          "bawat sandali na lang"
-        ] },
-        { label: "Chorus", lines: [
-          "    G#           A#",
-          "at aalis magbabalik",
-          "      D#         Cm",
-          "at uuliting sabihin",
-          "       G#         A#",
-          "na mahalin kat sambitin",
-          "         Gm      Cm",
-          "kahit muli masaktan",
-          "         G#",
-          "sa pag-alis",
-          "ako'y magbabalik",
-          "       G#m A#",
-          "sana naman"
-        ] },
-        { label: "Verse", lines: [
-          "G#              D#",
-          "sa isang marikit na alaala",
-          "G#              D#",
-          "pangitahing kay ganda",
-          "G#              D#",
-          "sana ngay pagbigyan",
-          "G#",
-          "na ng tadhana",
-          "                 A#",
-          "bawat sandali na lang",
-          "G#              D#",
-          "sumabay sa biglang pagkabahala",
-          "G#              D#",
-          "lumabis ang pagtataka",
-          "G#              D#",
-          "tunay na pagsintang di alintana",
-          "C#                 A#",
-          "bawat sandali na lang"
-        ] },
-        { label: "Chorus", lines: [
-          "    G#           A#",
-          "at aalis magbabalik",
-          "      D#         Cm",
-          "at uuliting sabihin",
-          "       G#         A#",
-          "na mahalin kat sambitin",
-          "         Gm      Cm",
-          "kahit muli masaktan",
-          "         G#",
-          "sa pag-alis",
-          "ako'y magbabalik",
-          "       G#m",
-          "sana naman"
-        ] },
-        { label: "Solo 1", lines: [
-          "C#M7 A#m9 F#M7 G# x2 (break)"
-        ] },
-        { label: "Solo 2", lines: [
-          "F# F#m C#M7 C#7",
-          "F# F#m G#"
-        ] },
-        { label: "Bridge", lines: [
-          "    F#          C#",
-          "ngumiti kahit na napipilitan",
-          "F#              C#",
-          "kahit pa sinasadya",
-          "F#             C#",
-          "mo akong masaktan paminsan-minsan",
-          "B                  G#",
-          "bawat sandali na lang"
-        ] },
-        { label: "Chorus", lines: [
-          "     F#           G#",
-          "at aalis magbabalik",
-          "     C#          A#m",
-          "at uuliting sabihin",
-          "     F#           G#",
-          "na mahalin kat sambitin",
-          "      Fm       A#m",
-          "kahit muli masaktan",
-          "     F#",
-          "sa pag-alis",
-          "ako'y magbabalik",
-          "      F#m F# G#",
-          "sana naman"
         ] }
       ]
     }
