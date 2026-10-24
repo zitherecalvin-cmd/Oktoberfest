@@ -501,6 +501,13 @@ footer.page a { color: var(--accent); }
       render();
     });
 
+    // A song can open in a different key from the one its chart is written
+    // in (song.defaultKey); Reset still returns to the written key.
+    if (song.defaultKey) {
+      state.offset = T.semitonesBetween(song.key, song.defaultKey);
+      state.key = song.defaultKey;
+      state.flats = familyIsFlatForKey(song.defaultKey);
+    }
     render();
     songsEl.appendChild(article);
   });

@@ -1254,6 +1254,7 @@
       title: "Huling Sandali",
       artist: "December Avenue",
       key: "E",
+      defaultKey: "D",
       bpm: 75,
       sections: [
         { label: "Intro", lines: [
